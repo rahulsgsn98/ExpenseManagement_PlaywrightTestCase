@@ -189,19 +189,26 @@ export default defineConfig({
     },
      */
     /* Test against branded browsers. */
-
-      {
-       name: 'Microsoft Edge',
-       use: { channel: 'msedge',
-         storageState: 'playwright/.auth/user.json', // Loads state automatically
-           headless: true ,// Your actual test shows the UI
-           viewport: null,
-      launchOptions: {
-        args: ['--start-maximized']
-      }
-        },
-          dependencies: process.env.CI ? [] : ['setup'],
-     },  
+    {
+      name: 'Microsoft Edge',
+      use: {
+        channel: 'msedge',
+        storageState: 'playwright/.auth/user.json',
+        headless: true,
+        
+        // ✅ Yahi use karo - CI aur local dono mein kaam karega
+        viewport: { width: 1920, height: 1080 },
+        
+        launchOptions: {
+          args: [
+            '--start-maximized',
+            '--no-sandbox',
+            '--disable-dev-shm-usage',
+          ]
+        }
+      },
+      dependencies: process.env.CI ? [] : ['setup'],
+    },
      {
        name: 'Google Chrome',
        use: { channel: 'chrome' ,

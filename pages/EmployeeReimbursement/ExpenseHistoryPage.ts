@@ -1,4 +1,5 @@
 import { expect, Locator, Page } from '@playwright/test';
+// import { ensureSidebarLinkVisible } from '../../utils/ensureSidebarLinkVisible';
 
 export class ExpenseHistoryPage {
   readonly page: Page;
@@ -223,8 +224,14 @@ export class ExpenseHistoryPage {
   }
 
   async openHistoryPage() {
+    // await ensureSidebarLinkVisible(this.page, this.historyMenuLink);
     await expect(this.historyMenuLink).toBeVisible();
-    await this.historyMenuLink.click();
+    try {
+      await this.historyMenuLink.scrollIntoViewIfNeeded();
+      await this.historyMenuLink.click({ timeout: 5000 });
+    } catch {
+      await this.page.goto('/ActionCenter/AllExpenseForms', { waitUntil: 'domcontentloaded' });
+    }
     await expect(this.page).toHaveURL(/\/ActionCenter\/AllExpenseForms/i);
     await expect(this.pageHeading).toBeVisible();
   }

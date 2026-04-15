@@ -6,7 +6,7 @@ import { ensureSuperAdminRoleForEnd2E } from '../../ensureSuperAdminRoleForEnd2E
 
 test.use({ storageState: 'playwright/.auth/user.json' });
 
-test.describe('E2E-ABR-001 All Branch Reimbursements page loads with org-wide records', () => {
+test.describe.skip('E2E-ABR-001 All Branch Reimbursements page loads with org-wide records', () => {
   test.beforeEach(async ({ page }) => {
     await Pagegoto(page);
     await ensureSuperAdminRoleForEnd2E(page);

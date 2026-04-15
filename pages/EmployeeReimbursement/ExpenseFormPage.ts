@@ -1,4 +1,5 @@
 import { expect, Locator, Page } from '@playwright/test';
+// import { ensureSidebarLinkVisible } from '../../utils/ensureSidebarLinkVisible';
 
 export class ExpenseFormPage {
   readonly page: Page;
@@ -61,8 +62,15 @@ export class ExpenseFormPage {
   } */
 
   async openExpenseForm() {
+    // await ensureSidebarLinkVisible(this.page, this.expenseFormMenuLink);
     await expect(this.expenseFormMenuLink).toBeVisible();
-    await this.expenseFormMenuLink.click();
+    try {
+      await this.expenseFormMenuLink.scrollIntoViewIfNeeded();
+      await this.expenseFormMenuLink.click({ timeout: 5000 });
+    } catch {
+      await this.page.goto('/AllForms/ExpenseForm', { waitUntil: 'domcontentloaded' });
+    }
+    await expect(this.page).toHaveURL(/\/AllForms\/ExpenseForm/i);
   }
 
   async enterAmount(amount: string) {

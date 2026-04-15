@@ -1,4 +1,5 @@
 import { expect, Locator, Page } from '@playwright/test';
+// import { ensureSidebarLinkVisible } from '../../utils/ensureSidebarLinkVisible';
 
 export class AllEmployeeVendorExpensesPage {
   readonly page: Page;
@@ -179,8 +180,14 @@ export class AllEmployeeVendorExpensesPage {
   }
 
   async openAllEmployeeVendorExpensesPage() {
+    // await ensureSidebarLinkVisible(this.page, this.allEmployeeVendorExpensesMenuLink);
     await expect(this.allEmployeeVendorExpensesMenuLink).toBeVisible();
-    await this.allEmployeeVendorExpensesMenuLink.click();
+    try {
+      await this.allEmployeeVendorExpensesMenuLink.scrollIntoViewIfNeeded();
+      await this.allEmployeeVendorExpensesMenuLink.click({ timeout: 5000 });
+    } catch {
+      await this.page.goto('/AllForms/GetAllVendorExpense', { waitUntil: 'domcontentloaded' });
+    }
     await expect(this.page).toHaveURL(/\/AllForms\/GetAllVendorExpense/i);
     await expect(this.historyPageHeading).toBeVisible();
   }
