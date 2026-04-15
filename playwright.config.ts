@@ -195,13 +195,9 @@ export default defineConfig({
         channel: 'msedge',
         storageState: 'playwright/.auth/user.json',
         headless: true,
-        
-        // ✅ Yahi use karo - CI aur local dono mein kaam karega
         viewport: { width: 1920, height: 1080 },
-        
         launchOptions: {
           args: [
-            '--start-maximized',
             '--no-sandbox',
             '--disable-dev-shm-usage',
           ]
