@@ -17,44 +17,54 @@ jobs:
         include:
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 1/10
-            shard_name: 1-of-10
+            shard: 1/9
+            shard_name: 1-of-9
+            test_path: tests/AllSubmissions tests/BranchReimbursement tests/EmployeeReimbursement tests/BranchVendorPayments/RequestVendorPayment/E2E
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 2/10
-            shard_name: 2-of-10
+            shard: 2/9
+            shard_name: 2-of-9
+            test_path: tests/AllSubmissions tests/BranchReimbursement tests/EmployeeReimbursement tests/BranchVendorPayments/RequestVendorPayment/E2E
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 3/10
-            shard_name: 3-of-10
+            shard: 3/9
+            shard_name: 3-of-9
+            test_path: tests/AllSubmissions tests/BranchReimbursement tests/EmployeeReimbursement tests/BranchVendorPayments/RequestVendorPayment/E2E
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 4/10
-            shard_name: 4-of-10
+            shard: 4/9
+            shard_name: 4-of-9
+            test_path: tests/AllSubmissions tests/BranchReimbursement tests/EmployeeReimbursement tests/BranchVendorPayments/RequestVendorPayment/E2E
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 5/10
-            shard_name: 5-of-10
+            shard: 5/9
+            shard_name: 5-of-9
+            test_path: tests/AllSubmissions tests/BranchReimbursement tests/EmployeeReimbursement tests/BranchVendorPayments/RequestVendorPayment/E2E
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 6/10
-            shard_name: 6-of-10
+            shard: 6/9
+            shard_name: 6-of-9
+            test_path: tests/AllSubmissions tests/BranchReimbursement tests/EmployeeReimbursement tests/BranchVendorPayments/RequestVendorPayment/E2E
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 7/10
-            shard_name: 7-of-10
+            shard: 7/9
+            shard_name: 7-of-9
+            test_path: tests/AllSubmissions tests/BranchReimbursement tests/EmployeeReimbursement tests/BranchVendorPayments/RequestVendorPayment/E2E
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 8/10
-            shard_name: 8-of-10
+            shard: 8/9
+            shard_name: 8-of-9
+            test_path: tests/AllSubmissions tests/BranchReimbursement tests/EmployeeReimbursement tests/BranchVendorPayments/RequestVendorPayment/E2E
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 9/10
-            shard_name: 9-of-10
+            shard: 9/9
+            shard_name: 9-of-9
+            test_path: tests/AllSubmissions tests/BranchReimbursement tests/EmployeeReimbursement tests/BranchVendorPayments/RequestVendorPayment/E2E
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 10/10
-            shard_name: 10-of-10
+            shard: 1/1
+            shard_name: request-vendor-payment-history
+            test_path: tests/BranchVendorPayments/RequestVendorPaymentHistory/E2E
 
     steps:
       - name: Checkout Repository
@@ -73,7 +83,7 @@ jobs:
         run: npx playwright install msedge
 
       - name: Run Playwright tests
-        run: npx playwright test --workers=1 --reporter=line,blob --project="${{ matrix.project }}" --shard=${{ matrix.shard }}
+        run: npx playwright test ${{ matrix.test_path }} --workers=1 --reporter=line,blob --project="${{ matrix.project }}" --shard=${{ matrix.shard }}
 
       - name: Upload blob report
         if: always()

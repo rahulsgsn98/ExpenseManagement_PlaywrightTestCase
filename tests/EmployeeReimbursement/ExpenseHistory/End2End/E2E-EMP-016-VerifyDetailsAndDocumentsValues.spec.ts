@@ -23,7 +23,8 @@ test.describe('E2E-EMP-016 Verify details/document values only', () => {
     const history = new ExpenseHistoryPage(page);
 
     const amount = RandomDataFaker.amount(210, 260);
-    const vendorName = RandomDataFaker.vendorName();
+    const amountCell = `$${Number(amount).toFixed(2)}`;
+    const vendorName = `${RandomDataFaker.vendorName()} ${Date.now()}`;
     const description = RandomDataFaker.expenseDescription();
     const fileName = 'Receipt.jpg';
     let expenseId = '';
@@ -43,13 +44,22 @@ test.describe('E2E-EMP-016 Verify details/document values only', () => {
     await test.step('Verify created expense row in History and capture ID', async () => {
       await history.openHistoryPage();
       await history.search(vendorName);
-      const createdRow = page.locator('tbody tr', { hasText: vendorName }).first();
-      await expect(createdRow).toBeVisible();
-      await expect(createdRow).toContainText(`$${amount}`);
+      const createdRow = page
+        .locator('tbody tr:not(.child)')
+        .filter({ hasText: vendorName })
+        .filter({ hasText: amountCell })
+        .first();
+      await expect(createdRow).toBeVisible({ timeout: 20_000 });
+      await expect(createdRow).toContainText(amountCell);
       await expect(createdRow).toContainText('Submitted');
       expenseId = (await createdRow.locator('td').first().innerText()).trim();
       expect(expenseId.length).toBeGreaterThan(0);
-      await createdRow.getByRole('link', { name: 'Details' }).click();
+
+      // DataTables renders "Details" in the expandable child row, not the main row.
+      await createdRow.locator('td').first().click();
+      const detailsLink = page.getByRole('link', { name: 'Details' }).first();
+      await expect(detailsLink).toBeVisible({ timeout: 20_000 });
+      await detailsLink.click();
     });
 
     await test.step('Verify Details page values', async () => {
