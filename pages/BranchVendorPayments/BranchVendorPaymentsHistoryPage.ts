@@ -643,19 +643,26 @@ export class BranchVendorPaymentsHistoryPage {
           };
 
           let safety = 0;
-          while (!(await nextIsDisabled()) && safety < 100) {
+          while (safety < 100) {
+            const row = amountDisplay
+              ? this.page
+                  .locator('tbody tr:not(.child)')
+                  .filter({ hasText: vendorName })
+                  .filter({ hasText: amountDisplay })
+                  .first()
+              : this.page.locator('tbody tr:not(.child)').filter({ hasText: vendorName }).first();
+
+            if (await row.isVisible()) {
+              const rowText = (await row.innerText()).replace(/\s+/g, ' ');
+              return rowText.includes(vendorName) && rowText.includes('Submitted');
+            }
+            if (await nextIsDisabled()) {
+              break;
+            }
             await this.goToHistoryNextPage();
             safety++;
           }
-
-          const lastVendorRow = this.historyRows.filter({ hasText: vendorName }).last();
-          if (!(await lastVendorRow.isVisible())) {
-            return false;
-          }
-
-          const rowText = (await lastVendorRow.innerText()).replace(/\s+/g, ' ');
-          const hasAmount = amountDisplay ? rowText.includes(amountDisplay) : true;
-          return rowText.includes(vendorName) && rowText.includes('Submitted') && hasAmount;
+          return false;
         },
         { timeout: 60_000, intervals: [1000, 2000, 3000, 5000] }
       )
