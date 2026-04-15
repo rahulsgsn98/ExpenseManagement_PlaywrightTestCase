@@ -17,28 +17,44 @@ jobs:
         include:
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 1/6
-            shard_name: 1-of-6
+            shard: 1/10
+            shard_name: 1-of-10
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 2/6
-            shard_name: 2-of-6
+            shard: 2/10
+            shard_name: 2-of-10
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 3/6
-            shard_name: 3-of-6
+            shard: 3/10
+            shard_name: 3-of-10
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 4/6
-            shard_name: 4-of-6
+            shard: 4/10
+            shard_name: 4-of-10
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 5/6
-            shard_name: 5-of-6
+            shard: 5/10
+            shard_name: 5-of-10
           - project: Microsoft Edge
             project_slug: microsoft-edge
-            shard: 6/6
-            shard_name: 6-of-6
+            shard: 6/10
+            shard_name: 6-of-10
+          - project: Microsoft Edge
+            project_slug: microsoft-edge
+            shard: 7/10
+            shard_name: 7-of-10
+          - project: Microsoft Edge
+            project_slug: microsoft-edge
+            shard: 8/10
+            shard_name: 8-of-10
+          - project: Microsoft Edge
+            project_slug: microsoft-edge
+            shard: 9/10
+            shard_name: 9-of-10
+          - project: Microsoft Edge
+            project_slug: microsoft-edge
+            shard: 10/10
+            shard_name: 10-of-10
 
     steps:
       - name: Checkout Repository
