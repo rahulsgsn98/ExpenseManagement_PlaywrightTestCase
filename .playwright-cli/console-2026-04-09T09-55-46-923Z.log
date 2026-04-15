@@ -1,0 +1,22 @@
+[    1170ms] [WARNING] jQuery.Deferred exception: Cannot set properties of undefined (setting '_DT_CellIndex') TypeError: Cannot set properties of undefined (setting '_DT_CellIndex')
+    at S (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:650200)
+    at Q (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:646100)
+    at HTMLTableRowElement.<anonymous> (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:646204)
+    at https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:1569
+    at C.map (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:3534)
+    at C.fn.init.map (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:1536)
+    at C (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:646169)
+    at f (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:685200)
+    at HTMLTableElement.<anonymous> (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:685383)
+    at C.each (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:3002) undefined @ https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:0
+[    1186ms] TypeError: Cannot set properties of undefined (setting '_DT_CellIndex')
+    at S (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:650200)
+    at Q (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:646100)
+    at HTMLTableRowElement.<anonymous> (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:646204)
+    at https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:1569
+    at C.map (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:3534)
+    at C.fn.init.map (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:1536)
+    at C (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:646169)
+    at f (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:685200)
+    at HTMLTableElement.<anonymous> (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:685383)
+    at C.each (https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/theme/assets/js/bundle.js?ver=2.5.0:1:3002)

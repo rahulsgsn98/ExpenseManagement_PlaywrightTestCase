@@ -1,0 +1,84 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [expanded] [active] [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - generic [ref=e78]:
+          - generic [ref=e80]:
+            - generic [ref=e82]: A
+            - generic [ref=e84]: Amaan Ansari
+          - combobox [ref=e87]:
+            - option "Select role" [disabled]
+            - option "HR"
+            - option "Managers" [selected]
+            - option "Super Admin"
+            - option "Employees"
+            - option "Accounting Team"
+            - option "Divisional Manager"
+            - option "Regional Manager"
+            - option "Area Manager"
+            - option "Branch Manager"
+          - list [ref=e89]
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - link " Sign out" [ref=e93] [cursor=pointer]:
+                - /url: /Accounts/Logout/
+                - emphasis [ref=e94]: 
+                - generic [ref=e95]: Sign out
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+  - generic [ref=e40]:
+    - generic [ref=e41]:
+      - img "Rize Stacked Logo" [ref=e43]
+      - generic [ref=e44]:
+        - heading "Welcome to the Employee Expense Portal!" [level=3] [ref=e45]
+        - paragraph [ref=e46]: 🌟 Your one-stop destination for all financial management needs!
+    - generic [ref=e47]:
+      - heading "Features:" [level=4] [ref=e48]
+      - list [ref=e49]:
+        - listitem [ref=e50]:
+          - strong [ref=e51]: "Expense Requests:"
+          - list [ref=e52]:
+            - listitem [ref=e53]: "Seamless Submissions: Submit your expense requests with just a few clicks. Attach bills, provide necessary details, and keep track of approvals."
+            - listitem [ref=e54]: "History & Tracking: Review past expense submissions, check the status of pending requests, and get real-time updates."
+        - listitem [ref=e55]:
+          - strong [ref=e56]: "Cost Center Management:"
+          - list [ref=e57]:
+            - listitem [ref=e58]: "Add & Allocate: Introduce new cost centers or allocate expenses to existing ones to ensure accurate financial reporting."
+            - listitem [ref=e59]: "Insights & Reports: Monitor spending, get insights on cost centers' performance, and make data-driven decisions."
+    - generic [ref=e60]:
+      - heading "Benefits:" [level=4] [ref=e61]
+      - list [ref=e62]:
+        - listitem [ref=e63]: "Efficiency: Reduce paperwork, save time, and enhance productivity with our easy-to-use portal."
+        - listitem [ref=e64]: "Transparency: Monitor and manage financial details with complete transparency."
+        - listitem [ref=e65]: "Accessibility: Access the portal anytime, anywhere, ensuring you’re always in control."
+    - generic [ref=e66]:
+      - heading "Getting Started:" [level=4] [ref=e67]
+      - list [ref=e68]:
+        - listitem [ref=e69]: Log In with your employee credentials.
+        - listitem [ref=e70]: "Navigate to the desired section: 'Expense Requests', or 'Cost Center Management'."
+        - listitem [ref=e71]: Start managing your tasks seamlessly!
+    - generic [ref=e72]:
+      - heading "🛠 Support & Assistance:" [level=4] [ref=e73]
+      - paragraph [ref=e74]:
+        - text: Facing an issue or need help? Reach out to our dedicated support team through the 'Help & Support' tab or email us at,
+        - link "support@rizemtg.com" [ref=e75] [cursor=pointer]:
+          - /url: mailto:support@rizemtg.com
+        - text: .
+    - paragraph [ref=e77]: Elevate your financial management experience with the Employee Expense Portal. Dive in and simplify your workflow today!

@@ -1,0 +1,125 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [expanded] [active] [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - generic [ref=e119]:
+          - generic [ref=e121]:
+            - generic [ref=e123]: A
+            - generic [ref=e125]: Amaan Ansari
+          - combobox [ref=e128]:
+            - option "Select role" [disabled]
+            - option "HR"
+            - option "Managers"
+            - option "Super Admin"
+            - option "Employees"
+            - option "Accounting Team" [selected]
+            - option "Divisional Manager"
+            - option "Regional Manager"
+            - option "Area Manager"
+            - option "Branch Manager"
+          - list [ref=e130]
+          - list [ref=e132]:
+            - listitem [ref=e133]:
+              - link " Sign out" [ref=e134] [cursor=pointer]:
+                - /url: /Accounts/Logout/
+                - emphasis [ref=e135]: 
+                - generic [ref=e136]: Sign out
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "All Submissions" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " All Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e67]: 
+        - generic [ref=e68]: All Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " All Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e72]: 
+        - generic [ref=e73]: All Employee Reimbursements
+    - listitem [ref=e74]:
+      - link " All Employee Vendor Expenses" [ref=e75] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e77]: 
+        - generic [ref=e78]: All Employee Vendor Expenses
+  - generic [ref=e81]:
+    - generic [ref=e82]:
+      - img "Rize Stacked Logo" [ref=e84]
+      - generic [ref=e85]:
+        - heading "Welcome to the Employee Expense Portal!" [level=3] [ref=e86]
+        - paragraph [ref=e87]: 🌟 Your one-stop destination for all financial management needs!
+    - generic [ref=e88]:
+      - heading "Features:" [level=4] [ref=e89]
+      - list [ref=e90]:
+        - listitem [ref=e91]:
+          - strong [ref=e92]: "Expense Requests:"
+          - list [ref=e93]:
+            - listitem [ref=e94]: "Seamless Submissions: Submit your expense requests with just a few clicks. Attach bills, provide necessary details, and keep track of approvals."
+            - listitem [ref=e95]: "History & Tracking: Review past expense submissions, check the status of pending requests, and get real-time updates."
+        - listitem [ref=e96]:
+          - strong [ref=e97]: "Cost Center Management:"
+          - list [ref=e98]:
+            - listitem [ref=e99]: "Add & Allocate: Introduce new cost centers or allocate expenses to existing ones to ensure accurate financial reporting."
+            - listitem [ref=e100]: "Insights & Reports: Monitor spending, get insights on cost centers' performance, and make data-driven decisions."
+    - generic [ref=e101]:
+      - heading "Benefits:" [level=4] [ref=e102]
+      - list [ref=e103]:
+        - listitem [ref=e104]: "Efficiency: Reduce paperwork, save time, and enhance productivity with our easy-to-use portal."
+        - listitem [ref=e105]: "Transparency: Monitor and manage financial details with complete transparency."
+        - listitem [ref=e106]: "Accessibility: Access the portal anytime, anywhere, ensuring you’re always in control."
+    - generic [ref=e107]:
+      - heading "Getting Started:" [level=4] [ref=e108]
+      - list [ref=e109]:
+        - listitem [ref=e110]: Log In with your employee credentials.
+        - listitem [ref=e111]: "Navigate to the desired section: 'Expense Requests', or 'Cost Center Management'."
+        - listitem [ref=e112]: Start managing your tasks seamlessly!
+    - generic [ref=e113]:
+      - heading "🛠 Support & Assistance:" [level=4] [ref=e114]
+      - paragraph [ref=e115]:
+        - text: Facing an issue or need help? Reach out to our dedicated support team through the 'Help & Support' tab or email us at,
+        - link "support@rizemtg.com" [ref=e116] [cursor=pointer]:
+          - /url: mailto:support@rizemtg.com
+        - text: .
+    - paragraph [ref=e118]: Elevate your financial management experience with the Employee Expense Portal. Dive in and simplify your workflow today!

@@ -1,0 +1,6 @@
+[    2828ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/images/favicon.png:0
+[   45796ms] ReferenceError: $ is not defined
+    at https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/AllForms/EditCostExpenseForm/6056:1019:9
+[   45797ms] ReferenceError: $ is not defined
+    at https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/AllForms/EditCostExpenseForm/6056:1068:5
+[   46331ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/AllForms/images/favicon.png:0

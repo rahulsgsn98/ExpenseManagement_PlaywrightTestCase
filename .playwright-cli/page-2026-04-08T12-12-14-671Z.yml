@@ -1,0 +1,216 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - text: 
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "My Approval" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /Approval/AllExpenseForms
+        - generic [ref=e67]: 
+        - generic [ref=e68]: Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /Approval/AllCostExpense
+        - generic [ref=e72]: 
+        - generic [ref=e73]: Employee Reimbursements
+    - listitem [ref=e74]:
+      - heading "All Submissions" [level=3] [ref=e75]
+    - listitem [ref=e76]:
+      - link " All Branch Reimbursements" [ref=e77] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e79]: 
+        - generic [ref=e80]: All Branch Reimbursements
+    - listitem [ref=e81]:
+      - link " All Employee Reimbursements" [ref=e82] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e84]: 
+        - generic [ref=e85]: All Employee Reimbursements
+    - listitem [ref=e86]:
+      - link " All Employee Vendor Expenses" [ref=e87] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e89]: 
+        - generic [ref=e90]: All Employee Vendor Expenses
+  - generic [ref=e91]:
+    - generic [ref=e94]:
+      - heading "Branch Expense Form" [level=5] [ref=e95]
+      - generic [ref=e97]:
+        - generic [ref=e99]:
+          - textbox "Submission Date *" [ref=e100]: 2025-09-29
+          - generic: Submission Date *
+        - generic [ref=e102]:
+          - combobox "Cost Center ID *" [ref=e103]:
+            - option "Select Cost Center"
+            - option "S10000B100R00D10" [selected]
+            - option "S31900B319R00D11"
+            - option "S13201B132R00D12"
+            - option "S13000B130R00D10"
+          - generic: Cost Center ID *
+        - generic [ref=e105]:
+          - generic: Amount*
+          - textbox "Amount*" [ref=e106]:
+            - /placeholder: Enter Amount
+            - text: "980.00"
+        - generic [ref=e108]:
+          - textbox "Expense Date *" [ref=e109]: 2025-09-29
+          - generic: Expense Date *
+        - generic [ref=e111]:
+          - combobox "Expense Category *" [ref=e112]:
+            - option "Select Expense Category"
+            - option "60110 Relocation Expense"
+            - option "60120 Training"
+            - option "60130 Continuing Education"
+            - option "60140 Employee Events" [selected]
+            - option "60150 Recruitment"
+            - option "63010 Meals & Entertainment"
+            - option "63020 Travel"
+            - option "63025 Auto Expense/Mileage"
+            - option "63025 Auto Expense/Gas"
+            - option "63035 Hotel"
+            - option "63040 Travel & Entertainment - Other"
+            - option "63110 Office Expense - Cleaning"
+            - option "63115 Office Maintenance & Services"
+            - option "63125 Telephone/Internet"
+            - option "63130 Office Supplies"
+            - option "63135 Utilities"
+            - option "65010 License and Permits"
+            - option "65011 NMLS Licensing Fees"
+            - option "65012 Computer & Internet Expenses"
+            - option "65015 Donations"
+            - option "65016 Seminars and Continuing Education"
+            - option "65025 Membership Fees"
+            - option "65030 Computer & Office Equipment"
+            - option "65039 Postage"
+            - option "65040 Courier and Delivery Fees"
+            - option "66010 Dues & Subscriptions"
+            - option "Other"
+          - generic: Expense Category *
+        - generic [ref=e114]:
+          - textbox "Vendor Name * If this is a reimbursement for multiple expenses on your credit card just type \"My Credit Card\"" [ref=e115]:
+            - /placeholder: Type here
+            - text: Shakur Test
+          - generic:
+            - text: Vendor Name *
+            - generic: If this is a reimbursement for multiple expenses on your credit card just type "My Credit Card"
+        - generic [ref=e117]:
+          - textbox "Description *" [ref=e118]:
+            - /placeholder: Type here
+            - text: NA
+          - generic: Description *
+        - generic [ref=e120]:
+          - generic [ref=e122] [cursor=pointer]:
+            - img [ref=e123]
+            - text: Supporting Documents *
+          - button "Supporting Documents *" [ref=e124]
+        - generic [ref=e126]:
+          - textbox "Notes *" [ref=e127]:
+            - /placeholder: Type here
+            - text: Intial Insert
+          - generic: Notes *
+        - button "Update Information" [ref=e129] [cursor=pointer]
+    - generic [ref=e132]:
+      - list [ref=e134]:
+        - listitem [ref=e135]:
+          - generic [ref=e136]:
+            - emphasis [ref=e137]: 
+            - generic [ref=e138]: All Documents
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - searchbox [ref=e145]
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]: Export
+              - generic [ref=e151]:
+                - button "" [ref=e152] [cursor=pointer]
+                - button "" [ref=e153] [cursor=pointer]
+                - button "" [ref=e154] [cursor=pointer]
+                - button "" [ref=e155] [cursor=pointer]
+            - generic [ref=e157] [cursor=pointer]:
+              - generic [ref=e158]: Show
+              - generic [ref=e159]:
+                - combobox "Show " [ref=e160]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: 
+        - grid [ref=e162]:
+          - rowgroup [ref=e163]:
+            - 'row "ID: activate to sort column descending Media Type: activate to sort column ascending Attachment: activate to sort column ascending Request ID: activate to sort column ascending Created On: activate to sort column ascending Created By: activate to sort column ascending Belongs To: activate to sort column ascending" [ref=e164]':
+              - 'columnheader "ID: activate to sort column descending" [ref=e165] [cursor=pointer]': ↑ ID ↓
+              - 'columnheader "Media Type: activate to sort column ascending" [ref=e166] [cursor=pointer]': ↑ Media Type ↓
+              - 'columnheader "Attachment: activate to sort column ascending" [ref=e167] [cursor=pointer]': ↑ Attachment ↓
+              - 'columnheader "Request ID: activate to sort column ascending" [ref=e168] [cursor=pointer]': ↑ Request ID ↓
+              - 'columnheader "Created On: activate to sort column ascending" [ref=e169] [cursor=pointer]': ↑ Created On ↓
+              - 'columnheader "Created By: activate to sort column ascending" [ref=e170] [cursor=pointer]': ↑ Created By ↓
+              - 'columnheader "Belongs To: activate to sort column ascending" [ref=e171] [cursor=pointer]': ↑ Belongs To ↓
+              - text: ↑ ↓ ↑ ↓
+          - rowgroup [ref=e172]:
+            - row "10562 Cost Center  6081 9/29/2025 5:55:54 AM Amaan Ansari Cost" [ref=e173]:
+              - gridcell "10562" [ref=e174] [cursor=pointer]
+              - gridcell "Cost Center" [ref=e175]
+              - gridcell "" [ref=e176]:
+                - link "" [ref=e177] [cursor=pointer]:
+                  - /url: "#"
+                  - emphasis [ref=e178]: 
+              - gridcell "6081" [ref=e179]
+              - gridcell "9/29/2025 5:55:54 AM" [ref=e180]
+              - gridcell "Amaan Ansari" [ref=e181]
+              - gridcell "Cost" [ref=e182]
+              - text: 
+        - generic [ref=e183]:
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - link "Prev":
+                - /url: "#"
+            - listitem [ref=e188] [cursor=pointer]:
+              - link "1" [ref=e189]:
+                - /url: "#"
+            - listitem [ref=e190]:
+              - link "Next":
+                - /url: "#"
+          - status [ref=e192]: 1 -1 of 1

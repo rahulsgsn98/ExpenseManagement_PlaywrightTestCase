@@ -1,0 +1,175 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - text: 
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "My Approval" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /Approval/AllExpenseForms
+        - generic [ref=e67]: 
+        - generic [ref=e68]: Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /Approval/AllCostExpense
+        - generic [ref=e72]: 
+        - generic [ref=e73]: Employee Reimbursements
+    - listitem [ref=e74]:
+      - heading "All Submissions" [level=3] [ref=e75]
+    - listitem [ref=e76]:
+      - link " All Branch Reimbursements" [ref=e77] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e79]: 
+        - generic [ref=e80]: All Branch Reimbursements
+    - listitem [ref=e81]:
+      - link " All Employee Reimbursements" [ref=e82] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e84]: 
+        - generic [ref=e85]: All Employee Reimbursements
+    - listitem [ref=e86]:
+      - link " All Employee Vendor Expenses" [ref=e87] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e89]: 
+        - generic [ref=e90]: All Employee Vendor Expenses
+  - generic [ref=e94]:
+    - heading "History" [level=5] [ref=e95]
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - searchbox [ref=e101]
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: Export
+            - generic [ref=e107]:
+              - button "" [ref=e108] [cursor=pointer]
+              - button "" [ref=e109] [cursor=pointer]
+              - button "" [ref=e110] [cursor=pointer]
+              - text: 
+          - generic [ref=e112] [cursor=pointer]:
+            - generic [ref=e113]: Show
+            - generic [ref=e114]:
+              - combobox "Show " [ref=e115]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: 
+      - grid [ref=e117]:
+        - rowgroup [ref=e118]:
+          - 'row "Branch Expense ID: activate to sort column descending Vendor Name: activate to sort column ascending Amount: activate to sort column ascending Status: activate to sort column ascending Last Updated Date: activate to sort column ascending Action: activate to sort column ascending" [ref=e119]':
+            - 'columnheader "Branch Expense ID: activate to sort column descending" [ref=e120] [cursor=pointer]': ↑ Branch Expense ID ↓
+            - 'columnheader "Vendor Name: activate to sort column ascending" [ref=e121] [cursor=pointer]': ↑ Vendor Name ↓
+            - 'columnheader "Amount: activate to sort column ascending" [ref=e122] [cursor=pointer]': ↑ Amount ↓
+            - 'columnheader "Status: activate to sort column ascending" [ref=e123] [cursor=pointer]': ↑ Status ↓
+            - 'columnheader "Last Updated Date: activate to sort column ascending" [ref=e124] [cursor=pointer]': ↑ Last Updated Date ↓
+            - 'columnheader "Action: activate to sort column ascending" [ref=e125] [cursor=pointer]': ↑ Action ↓
+        - rowgroup [ref=e126]:
+          - row "0D10 -0026 Shakur Test $980.00 Submitted 09/29/2025 Details" [ref=e127]:
+            - gridcell "0D10 -0026" [ref=e128]
+            - gridcell "Shakur Test" [ref=e129]
+            - gridcell "$980.00" [ref=e130]
+            - gridcell "Submitted" [ref=e131]
+            - gridcell "09/29/2025" [ref=e132]
+            - gridcell "Details" [ref=e133]:
+              - link "Details" [ref=e134] [cursor=pointer]:
+                - /url: /ActionCenter/CostactionCenter?ID=6081
+          - row "0D10 -0029 342 $34.00 Submitted 01/15/2026 Details" [ref=e135]:
+            - gridcell "0D10 -0029" [ref=e136]
+            - gridcell "342" [ref=e137]
+            - gridcell "$34.00" [ref=e138]
+            - gridcell "Submitted" [ref=e139]
+            - gridcell "01/15/2026" [ref=e140]
+            - gridcell "Details" [ref=e141]:
+              - link "Details" [ref=e142] [cursor=pointer]:
+                - /url: /ActionCenter/CostactionCenter?ID=6084
+          - row "0D10 -0030 234 $34.00 Submitted 01/15/2026 Details" [ref=e143]:
+            - gridcell "0D10 -0030" [ref=e144]
+            - gridcell "234" [ref=e145]
+            - gridcell "$34.00" [ref=e146]
+            - gridcell "Submitted" [ref=e147]
+            - gridcell "01/15/2026" [ref=e148]
+            - gridcell "Details" [ref=e149]:
+              - link "Details" [ref=e150] [cursor=pointer]:
+                - /url: /ActionCenter/CostactionCenter?ID=6085
+          - row "0D10 -0033 Shahid $900.00 Submitted 02/24/2026 Details" [ref=e151]:
+            - gridcell "0D10 -0033" [ref=e152]
+            - gridcell "Shahid" [ref=e153]
+            - gridcell "$900.00" [ref=e154]
+            - gridcell "Submitted" [ref=e155]
+            - gridcell "02/24/2026" [ref=e156]
+            - gridcell "Details" [ref=e157]:
+              - link "Details" [ref=e158] [cursor=pointer]:
+                - /url: /ActionCenter/CostactionCenter?ID=6088
+          - row "0D10 -0039 Branch Manager vendor $100.00 Submitted 03/31/2026 Details" [ref=e159]:
+            - gridcell "0D10 -0039" [ref=e160]
+            - gridcell "Branch Manager vendor" [ref=e161]
+            - gridcell "$100.00" [ref=e162]
+            - gridcell "Submitted" [ref=e163]
+            - gridcell "03/31/2026" [ref=e164]
+            - gridcell "Details" [ref=e165]:
+              - link "Details" [ref=e166] [cursor=pointer]:
+                - /url: /ActionCenter/CostactionCenter?ID=6094
+          - row "0D11 -0034 Empire Processing $2200.00 Submitted 02/25/2026 Details" [ref=e167]:
+            - gridcell "0D11 -0034" [ref=e168]
+            - gridcell "Empire Processing" [ref=e169]
+            - gridcell "$2200.00" [ref=e170]
+            - gridcell "Submitted" [ref=e171]
+            - gridcell "02/25/2026" [ref=e172]
+            - gridcell "Details" [ref=e173]:
+              - link "Details" [ref=e174] [cursor=pointer]:
+                - /url: /ActionCenter/CostactionCenter?ID=6089
+      - generic [ref=e175]:
+        - list [ref=e178]:
+          - listitem [ref=e179]:
+            - link "Prev":
+              - /url: "#"
+          - listitem [ref=e180] [cursor=pointer]:
+            - link "1" [ref=e181]:
+              - /url: "#"
+          - listitem [ref=e182]:
+            - link "Next":
+              - /url: "#"
+        - status [ref=e184]: 1 -6 of 6

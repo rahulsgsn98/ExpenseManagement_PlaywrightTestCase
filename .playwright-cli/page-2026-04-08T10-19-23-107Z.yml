@@ -1,0 +1,176 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - text: 
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "My Approval" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /Approval/AllExpenseForms
+        - generic [ref=e67]: 
+        - generic [ref=e68]: Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /Approval/AllCostExpense
+        - generic [ref=e72]: 
+        - generic [ref=e73]: Employee Reimbursements
+    - listitem [ref=e74]:
+      - heading "All Submissions" [level=3] [ref=e75]
+    - listitem [ref=e76]:
+      - link " All Branch Reimbursements" [ref=e77] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e79]: 
+        - generic [ref=e80]: All Branch Reimbursements
+    - listitem [ref=e81]:
+      - link " All Employee Reimbursements" [ref=e82] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e84]: 
+        - generic [ref=e85]: All Employee Reimbursements
+    - listitem [ref=e86]:
+      - link " All Employee Vendor Expenses" [ref=e87] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e89]: 
+        - generic [ref=e90]: All Employee Vendor Expenses
+  - generic [ref=e91]:
+    - generic [ref=e94]:
+      - heading "Expense Form" [level=5] [ref=e95]
+      - generic [ref=e97]:
+        - generic [ref=e99]:
+          - textbox "Expense Submission Date*" [ref=e100]: 2025-09-24
+          - generic: Expense Submission Date*
+        - generic [ref=e102]:
+          - generic: Amount*
+          - textbox "Amount*" [ref=e103]:
+            - /placeholder: Enter Amount
+            - text: "132.00"
+        - generic [ref=e105]:
+          - generic: Expense Date*
+          - textbox "Expense Date*" [ref=e106]: 2025-09-24
+        - generic [ref=e108]:
+          - generic: Expense Category*
+          - combobox "Expense Category*" [ref=e109]:
+            - option "Select Expense Category" [selected]
+            - option "60120 Training"
+            - option "60130 Continuing Education"
+            - option "60140 Employee Events"
+            - option "60150 Recruitment"
+            - option "63010 Meals & Entertainment"
+            - option "63020 Travel"
+            - option "63025 Auto Expense/Mileage"
+            - option "63025 Auto Expense/Gas"
+            - option "63035 Hotel"
+            - option "63040 Travel & Entertainment - Other"
+            - option "63130 Office Supplies"
+            - option "65010 License and Permits"
+            - option "65011 NMLS Licensing Fees"
+            - option "65012 Computer & Internet Expenses"
+            - option "65015 Donations"
+            - option "65016 Seminars and Continuing Education"
+            - option "65025 Membership Fees"
+            - option "65030 Computer & Office Equipment"
+            - option "66010 Dues & Subscriptions"
+            - option "Other"
+        - generic [ref=e111] [cursor=pointer]:
+          - generic: Vendor Name*
+          - textbox "Vendor Name*" [ref=e112]: fds
+          - generic: If this is a reimbursement for multiple expenses on your credit card just type "My Credit Card"
+        - generic [ref=e115] [cursor=pointer]:
+          - img [ref=e116]
+          - text: Supporting Documents
+        - generic [ref=e118]:
+          - generic: Expense Description*
+          - textbox [ref=e119]: dfs
+        - button "Update Information" [ref=e121] [cursor=pointer]
+    - generic [ref=e124]:
+      - list [ref=e126]:
+        - listitem [ref=e127]:
+          - generic [ref=e128]:
+            - emphasis [ref=e129]: 
+            - generic [ref=e130]: All Documents
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - searchbox [ref=e136]: image
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - generic [ref=e141]: Export
+              - generic [ref=e142]:
+                - button "" [ref=e143] [cursor=pointer]
+                - button "" [ref=e144] [cursor=pointer]
+                - button "" [ref=e145] [cursor=pointer]
+                - button "" [ref=e146] [cursor=pointer]
+            - generic [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: Show
+              - generic [ref=e150]:
+                - combobox "Show " [ref=e151]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: 
+        - grid [ref=e153]:
+          - rowgroup [ref=e154]:
+            - 'row "ID: activate to sort column ascending Media Type: activate to sort column descending Attachment: activate to sort column ascending Request ID: activate to sort column ascending Created On: activate to sort column ascending Created By: activate to sort column ascending Belongs To: activate to sort column ascending" [ref=e219]':
+              - 'columnheader "ID: activate to sort column ascending" [ref=e220] [cursor=pointer]': ↑ ID ↓
+              - 'columnheader "Media Type: activate to sort column descending" [ref=e221] [cursor=pointer]': ↑ Media Type ↓
+              - 'columnheader "Attachment: activate to sort column ascending" [ref=e158] [cursor=pointer]': ↑ Attachment ↓
+              - 'columnheader "Request ID: activate to sort column ascending" [ref=e159] [cursor=pointer]': ↑ Request ID ↓
+              - 'columnheader "Created On: activate to sort column ascending" [ref=e160] [cursor=pointer]': ↑ Created On ↓
+              - 'columnheader "Created By: activate to sort column ascending" [ref=e161] [cursor=pointer]': ↑ Created By ↓
+              - 'columnheader "Belongs To: activate to sort column ascending" [ref=e162] [cursor=pointer]': ↑ Belongs To ↓
+              - text: ↑ ↓ ↑ ↓
+          - rowgroup [ref=e163]:
+            - row "No matching records found" [ref=e222]:
+              - gridcell "No matching records found" [ref=e223] [cursor=pointer]
+        - generic [ref=e204]:
+          - list [ref=e224]:
+            - listitem [ref=e225]:
+              - link "Prev":
+                - /url: "#"
+            - listitem [ref=e226]:
+              - link "Next":
+                - /url: "#"
+          - status [ref=e213]: No records found ( Total 4 )

@@ -1,0 +1,7 @@
+[    3649ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://expense-theme-staging-bzafembbe2d5btbe.eastus-01.azurewebsites.net/theme/assets/css/~/theme/assets/images/xbackground6.jpg:0
+[   20632ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://expense-theme-staging-bzafembbe2d5btbe.eastus-01.azurewebsites.net/Theme/assets/fonts/Roboto-Regular.woff2 @ https://expense-theme-staging-bzafembbe2d5btbe.eastus-01.azurewebsites.net/Home/Index:76
+[   21357ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://expense-theme-staging-bzafembbe2d5btbe.eastus-01.azurewebsites.net/Theme/assets/fonts/Roboto-Bold.woff2 @ https://expense-theme-staging-bzafembbe2d5btbe.eastus-01.azurewebsites.net/Home/Index:344
+[   22635ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://expense-theme-staging-bzafembbe2d5btbe.eastus-01.azurewebsites.net/images/favicon.png:0
+[   34686ms] [WARNING] The specified value "4/7/2026 6:27:30 AM" does not conform to the required format, "yyyy-MM-dd". @ https://expense-theme-staging-bzafembbe2d5btbe.eastus-01.azurewebsites.net/AllForms/ExpenseForm:1105
+[   34687ms] ReferenceError: $ is not defined
+    at https://expense-theme-staging-bzafembbe2d5btbe.eastus-01.azurewebsites.net/AllForms/ExpenseForm:1233:5

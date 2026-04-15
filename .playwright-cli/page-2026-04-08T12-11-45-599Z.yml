@@ -1,0 +1,4 @@
+- generic [ref=e8]:
+  - img [ref=e10]
+  - button "Continue to Login" [ref=e12] [cursor=pointer]:
+    - paragraph [ref=e13]: Continue to Login

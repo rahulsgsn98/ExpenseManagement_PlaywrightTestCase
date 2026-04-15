@@ -1,0 +1,27 @@
+- generic [ref=e5]:
+  - img "Organization background image" [ref=e6]
+  - generic [ref=e8]:
+    - generic [ref=e14]:
+      - img "Organization banner logo" [ref=e17]
+      - main [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e57]:
+            - button "Back" [ref=e58] [cursor=pointer]
+            - generic "amaan.ansari@softwarelynx.com" [ref=e59]
+          - generic [ref=e60]:
+            - textbox [ref=e61]: amaan.ansari@softwarelynx.com
+            - heading "Enter password" [level=1] [ref=e63]
+            - generic [ref=e65]:
+              - alert
+              - textbox "Enter the password for amaan.ansari@softwarelynx.com" [active] [ref=e67]:
+                - /placeholder: Password
+            - link "Forgot my password" [ref=e74] [cursor=pointer]:
+              - /url: https://passwordreset.microsoftonline.com/?ru=https%3a%2f%2flogin.microsoftonline.com%2f711f2702-c004-4887-af6e-961f941df9ec%2freprocess%3fctx%3drQQIARAAvdM9j9tkAADgpHfttSfRXqsKdUG6oRKI4sSvv31ShyS2z05ix04cO84S-eP1V2znw28SXyT2slSw0o2y0AFVSEhQFlg7VB0YEFMHBtQFxHQMSIg_wfL8g-f4iG2QDdDAPzwADXB2n2UgTXN0gIUsyWEUYEiMI6CHuYChAcsyHsuA9Z3jE_Hvn7_94e5j7fv1b4-_enqffFZPY4SW5VmzCaslLEqIoRjmECuRGyVFhHl7N4S550EioD3kwQZ0S7QpMRw03P1mDXfQKxMEy0YBUbPl-4tNgcqmWCG4Ltysv4iSouNmWdv1583v6vXX9frv9fqzKyVD8gDgDMPSNM0CnqKIhpMqtGNOY1VoIS2NU62D46pg0H1bijVCRU6uJU4axNNcoTTBIZ18mk4FLXXSMZqaCuUkOK6aw3nf7qZO2kIDIctVW9xNc2On2ePdr1duDVobFBP_sVgne_jXlRvhYp3PlosSfX7w5LATCl2uD1NoxOYQWNKWVc9RqPVaF-eTbNAZ0dtZUckFZvULO-6HF1aOLvZpp4VN2qo8yoXVNOK5jHQmZhTmyz12kcIhYpa65sj8SE4qKsjwAIuVEBBl1hpz8dzorPDIAnNNpHnK0SNNNwpRYkEoXPRge9gxBN3dsFQfbaQV1Euty2zpicvbAsVgXacQeMuNc1QJUiBNuCm7TMhBEfjDLEndnpn10o1XFkBRzumEOCfGg-0WRIaR5FRoLFBfymOTCWYGO-L5ap600sxwM3PmB-eZ6eOSTu4lG4mYjXkxv0-89sVIFhnV4YCVlT0Wxl1eNCpQGSD1OTimrVXU1rIVRtvt0daIQhKf80ZG8cSynRNZjyiDcrjK8LXGtnlVTGJDsCaywxlQ1CmLLWkP-LCcXhC7DFKVXrVTRSNEVtIZxNPzSTZoCd3ecAwTM8INWhUKujJlBGMnCnY9mxwoNMMlK1WQ8GmlkHzpE3InGHX7S6urbOaqN92kTgAHmq4XOoI-nNkaDjalborCCFPc2c5t5TqXWevZVtQ2XA8f73Q59HV6PW21d98c3GcBCAkWJzAfxymM4jgWc0MGYjwDQp4CQchD_-XBzcUSFklwulwvwiSDrw_rbw_fvX50cnCvflr74C5-cHb9-vFJ7V7ttHZ5WP_i6p3jk0-6wtNf3mOlJ1-_77zQPq69vNrMle2Wadsmsuyqw9jNYWxNl5E0iAgfRgUxQcGDdswvtySjPOTOwKfX6i-v3VCEmSaazAz_81r90VHtxY3_8faz4wc86YzW5107nsw6md_TXBQofbmQbUWrZGue2Z5MEjKLcRB_flz_8Z3a5c1_Pnv16qfLL_-Q3976SC0juG_z3ZKytahoh2npDDadoMcl6ojGqc2a2ik0kNK4OX74_KT25qT25nbt8vbpozu1fwE1&mkt=en-US&hosted=0&device_platform=Windows+10
+            - button "Sign in" [ref=e77] [cursor=pointer]
+    - contentinfo [ref=e50]:
+      - generic [ref=e51]:
+        - link "Terms of use" [ref=e52] [cursor=pointer]:
+          - /url: https://www.microsoft.com/en-US/servicesagreement/
+        - link "Privacy & cookies" [ref=e53] [cursor=pointer]:
+          - /url: https://privacy.microsoft.com/en-US/privacystatement
+        - button "Click here for troubleshooting information" [ref=e54] [cursor=pointer]: ...

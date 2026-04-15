@@ -1,0 +1,204 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - text: 
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "My Approval" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /Approval/AllExpenseForms
+        - generic [ref=e67]: 
+        - generic [ref=e68]: Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /Approval/AllCostExpense
+        - generic [ref=e72]: 
+        - generic [ref=e73]: Employee Reimbursements
+    - listitem [ref=e74]:
+      - heading "All Submissions" [level=3] [ref=e75]
+    - listitem [ref=e76]:
+      - link " All Branch Reimbursements" [ref=e77] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e79]: 
+        - generic [ref=e80]: All Branch Reimbursements
+    - listitem [ref=e81]:
+      - link " All Employee Reimbursements" [ref=e82] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e84]: 
+        - generic [ref=e85]: All Employee Reimbursements
+    - listitem [ref=e86]:
+      - link " All Employee Vendor Expenses" [ref=e87] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e89]: 
+        - generic [ref=e90]: All Employee Vendor Expenses
+  - generic [ref=e94]:
+    - heading "Amaan's History" [level=5] [ref=e95]
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - searchbox [ref=e101]
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: Export
+            - generic [ref=e107]:
+              - button "" [ref=e108] [cursor=pointer]
+              - button "" [ref=e109] [cursor=pointer]
+              - button "" [ref=e110] [cursor=pointer]
+              - text: 
+          - generic [ref=e112] [cursor=pointer]:
+            - generic [ref=e113]: Show
+            - generic [ref=e114]:
+              - combobox "Show " [ref=e115]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: 
+      - grid [ref=e117]:
+        - rowgroup [ref=e118]:
+          - 'row "ID: activate to sort column descending Vendor Name: activate to sort column ascending Amount: activate to sort column ascending Submitted Date: activate to sort column ascending Status: activate to sort column ascending Last Updated Date: activate to sort column ascending" [ref=e119]':
+            - 'columnheader "ID: activate to sort column descending" [ref=e120] [cursor=pointer]': ↑ ID ↓
+            - 'columnheader "Vendor Name: activate to sort column ascending" [ref=e121] [cursor=pointer]': ↑ Vendor Name ↓
+            - 'columnheader "Amount: activate to sort column ascending" [ref=e122] [cursor=pointer]': ↑ Amount ↓
+            - 'columnheader "Submitted Date: activate to sort column ascending" [ref=e123] [cursor=pointer]': ↑ Submitted Date ↓
+            - 'columnheader "Status: activate to sort column ascending" [ref=e124] [cursor=pointer]': ↑ Status ↓
+            - 'columnheader "Last Updated Date: activate to sort column ascending" [ref=e125] [cursor=pointer]': ↑ Last Updated Date ↓
+            - text: ↑ ↓
+        - rowgroup [ref=e126]:
+          - row "Ansari-0080 Rishi Raj $400.00 4/7/2026 Submitted 4/7/2026 7:18:45 AM" [ref=e216]:
+            - gridcell "Ansari-0080" [ref=e217] [cursor=pointer]
+            - gridcell "Rishi Raj" [ref=e218]
+            - gridcell "$400.00" [ref=e219]
+            - gridcell "4/7/2026" [ref=e220]
+            - gridcell "Submitted" [ref=e221]
+            - gridcell "4/7/2026 7:18:45 AM" [ref=e222]
+          - row "Ansari-0081 Rishi sohna vendor $2000.00 4/7/2026 Submitted 4/7/2026 7:21:49 AM" [ref=e223]:
+            - gridcell "Ansari-0081" [ref=e224] [cursor=pointer]
+            - gridcell "Rishi sohna vendor" [ref=e225]
+            - gridcell "$2000.00" [ref=e226]
+            - gridcell "4/7/2026" [ref=e227]
+            - gridcell "Submitted" [ref=e228]
+            - gridcell "4/7/2026 7:21:49 AM" [ref=e229]
+          - row "Ansari-0082 Hermiston LLC $455.00 4/7/2026 Submitted 4/7/2026 9:25:59 AM" [ref=e230]:
+            - gridcell "Ansari-0082" [ref=e231] [cursor=pointer]
+            - gridcell "Hermiston LLC" [ref=e232]
+            - gridcell "$455.00" [ref=e233]
+            - gridcell "4/7/2026" [ref=e234]
+            - gridcell "Submitted" [ref=e235]
+            - gridcell "4/7/2026 9:25:59 AM" [ref=e236]
+          - row "Ansari-0083 rahul hr $1000.00 4/7/2026 Submitted 4/7/2026 9:28:44 AM" [ref=e237]:
+            - gridcell "Ansari-0083" [ref=e238] [cursor=pointer]
+            - gridcell "rahul hr" [ref=e239]
+            - gridcell "$1000.00" [ref=e240]
+            - gridcell "4/7/2026" [ref=e241]
+            - gridcell "Submitted" [ref=e242]
+            - gridcell "4/7/2026 9:28:44 AM" [ref=e243]
+          - row "Ansari-0084 Stehr, Becker-Kuhic and Collins $1587.00 4/7/2026 Submitted 4/7/2026 9:32:14 AM" [ref=e244]:
+            - gridcell "Ansari-0084" [ref=e245] [cursor=pointer]
+            - gridcell "Stehr, Becker-Kuhic and Collins" [ref=e246]
+            - gridcell "$1587.00" [ref=e247]
+            - gridcell "4/7/2026" [ref=e248]
+            - gridcell "Submitted" [ref=e249]
+            - gridcell "4/7/2026 9:32:14 AM" [ref=e250]
+          - row "Ansari-0085 Tremblay, Abernathy and Howell $2567.00 4/7/2026 Submitted 4/7/2026 9:34:14 AM" [ref=e251]:
+            - gridcell "Ansari-0085" [ref=e252] [cursor=pointer]
+            - gridcell "Tremblay, Abernathy and Howell" [ref=e253]
+            - gridcell "$2567.00" [ref=e254]
+            - gridcell "4/7/2026" [ref=e255]
+            - gridcell "Submitted" [ref=e256]
+            - gridcell "4/7/2026 9:34:14 AM" [ref=e257]
+          - row "Ansari-0086 Collins Group $1382.00 4/7/2026 Submitted 4/7/2026 9:40:27 AM" [ref=e258]:
+            - gridcell "Ansari-0086" [ref=e259] [cursor=pointer]
+            - gridcell "Collins Group" [ref=e260]
+            - gridcell "$1382.00" [ref=e261]
+            - gridcell "4/7/2026" [ref=e262]
+            - gridcell "Submitted" [ref=e263]
+            - gridcell "4/7/2026 9:40:27 AM" [ref=e264]
+          - row "Ansari-0087 Koss - Kuphal $546.00 4/7/2026 Submitted 4/7/2026 10:32:14 AM" [ref=e265]:
+            - gridcell "Ansari-0087" [ref=e266] [cursor=pointer]
+            - gridcell "Koss - Kuphal" [ref=e267]
+            - gridcell "$546.00" [ref=e268]
+            - gridcell "4/7/2026" [ref=e269]
+            - gridcell "Submitted" [ref=e270]
+            - gridcell "4/7/2026 10:32:14 AM" [ref=e271]
+          - row "Ansari-0088 Upton, Adams and Bartoletti $2127.00 4/7/2026 Submitted 4/7/2026 10:32:15 AM" [ref=e272]:
+            - gridcell "Ansari-0088" [ref=e273] [cursor=pointer]
+            - gridcell "Upton, Adams and Bartoletti" [ref=e274]
+            - gridcell "$2127.00" [ref=e275]
+            - gridcell "4/7/2026" [ref=e276]
+            - gridcell "Submitted" [ref=e277]
+            - gridcell "4/7/2026 10:32:15 AM" [ref=e278]
+          - row "Ansari-0089 Lemke, Durgan and Stracke $526.00 4/7/2026 Submitted 4/7/2026 10:35:22 AM" [ref=e279]:
+            - gridcell "Ansari-0089" [ref=e280] [cursor=pointer]
+            - gridcell "Lemke, Durgan and Stracke" [ref=e281]
+            - gridcell "$526.00" [ref=e282]
+            - gridcell "4/7/2026" [ref=e283]
+            - gridcell "Submitted" [ref=e284]
+            - gridcell "4/7/2026 10:35:22 AM" [ref=e285]
+      - generic [ref=e197]:
+        - list [ref=e286]:
+          - listitem [ref=e287] [cursor=pointer]:
+            - link "Prev" [ref=e288]:
+              - /url: "#"
+          - listitem [ref=e289] [cursor=pointer]:
+            - link "1" [ref=e290]:
+              - /url: "#"
+          - listitem [ref=e291] [cursor=pointer]:
+            - link "2" [ref=e292]:
+              - /url: "#"
+          - listitem [ref=e293] [cursor=pointer]:
+            - link "3" [ref=e294]:
+              - /url: "#"
+          - listitem [ref=e295] [cursor=pointer]:
+            - link "4" [ref=e296]:
+              - /url: "#"
+          - listitem [ref=e297] [cursor=pointer]:
+            - link "5" [ref=e298]:
+              - /url: "#"
+          - listitem [ref=e299] [cursor=pointer]:
+            - link "Next" [active] [ref=e300]:
+              - /url: "#"
+        - status [ref=e215]: 11 -20 of 45

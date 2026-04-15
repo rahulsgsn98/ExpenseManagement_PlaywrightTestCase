@@ -1,0 +1,4 @@
+[    3037ms] [WARNING] The specified value "4/7/2026 10:48:50 AM" does not conform to the required format, "yyyy-MM-dd". @ https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/AllForms/ExpenseForm:374
+[    3040ms] ReferenceError: $ is not defined
+    at https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/AllForms/ExpenseForm:507:5
+[    5173ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/images/favicon.png:0

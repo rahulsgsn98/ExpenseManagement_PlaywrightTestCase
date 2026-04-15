@@ -1,0 +1,124 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - text: 
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "My Approval" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /Approval/AllExpenseForms
+        - generic [ref=e67]: 
+        - generic [ref=e68]: Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /Approval/AllCostExpense
+        - generic [ref=e72]: 
+        - generic [ref=e73]: Employee Reimbursements
+    - listitem [ref=e74]:
+      - heading "All Submissions" [level=3] [ref=e75]
+    - listitem [ref=e76]:
+      - link " All Branch Reimbursements" [ref=e77] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e79]: 
+        - generic [ref=e80]: All Branch Reimbursements
+    - listitem [ref=e81]:
+      - link " All Employee Reimbursements" [ref=e82] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e84]: 
+        - generic [ref=e85]: All Employee Reimbursements
+    - listitem [ref=e86]:
+      - link " All Employee Vendor Expenses" [ref=e87] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e89]: 
+        - generic [ref=e90]: All Employee Vendor Expenses
+  - generic [ref=e94]:
+    - heading "Employee Expense Reimbursement" [level=5] [ref=e96]
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e100]:
+          - textbox "Amount*" [active] [ref=e101]:
+            - /placeholder: Enter Amount
+          - generic: Amount*
+        - generic [ref=e103]:
+          - combobox "Expense Category*" [ref=e104]:
+            - option "Select Expense Category" [selected]
+            - option "60120 Training"
+            - option "60130 Continuing Education"
+            - option "60140 Employee Events"
+            - option "60150 Recruitment"
+            - option "63010 Meals & Entertainment"
+            - option "63020 Travel"
+            - option "63025 Auto Expense/Mileage"
+            - option "63025 Auto Expense/Gas"
+            - option "63035 Hotel"
+            - option "63040 Travel & Entertainment - Other"
+            - option "63130 Office Supplies"
+            - option "65010 License and Permits"
+            - option "65011 NMLS Licensing Fees"
+            - option "65012 Computer & Internet Expenses"
+            - option "65015 Donations"
+            - option "65016 Seminars and Continuing Education"
+            - option "65025 Membership Fees"
+            - option "65030 Computer & Office Equipment"
+            - option "66010 Dues & Subscriptions"
+            - option "Other"
+          - generic: Expense Category*
+        - generic [ref=e106]:
+          - textbox "Vendor Name*" [ref=e107]:
+            - /placeholder: Enter Vendor Name
+          - generic: Vendor Name*
+        - generic [ref=e108]:
+          - generic [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - text: Supporting Documents *
+          - button "Supporting Documents *" [ref=e112]
+        - generic [ref=e114]:
+          - textbox "Enter Expense Description" [ref=e115]
+          - generic: Expense Description*
+      - generic [ref=e116]:
+        - button "Submit" [ref=e119] [cursor=pointer]
+        - button "Submit and Add New" [ref=e122] [cursor=pointer]

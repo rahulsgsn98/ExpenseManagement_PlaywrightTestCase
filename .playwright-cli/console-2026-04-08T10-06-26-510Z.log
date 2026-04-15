@@ -1,0 +1,9 @@
+[    1536ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/Theme/assets/fonts/Roboto-Bold.woff2 @ https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/Home/Index:353
+[    1552ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/Theme/assets/fonts/Roboto-Regular.woff2 @ https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/Home/Index:353
+[    3818ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/images/favicon.png:0
+[   18534ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/Theme/assets/fonts/Roboto-Medium.woff2 @ https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/ActionCenter/ExpenseactionCenter?ID=8371:0
+[   21604ms] ReferenceError: $ is not defined
+    at https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/AllForms/EditExpenseForm/8371:613:9
+[   21605ms] ReferenceError: $ is not defined
+    at https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/AllForms/EditExpenseForm/8371:637:5
+[   22222ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/AllForms/images/favicon.png:0

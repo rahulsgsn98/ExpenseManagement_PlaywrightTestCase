@@ -1,0 +1,20 @@
+- generic [ref=e1]:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img "Organization background image" [ref=e2]
+          - generic [ref=e4]:
+            - generic [ref=e12]:
+              - img "Organization banner logo" [ref=e14]
+              - main [ref=e15]:
+                - generic [ref=e16]:
+                  - generic "amaan.ansari@softwarelynx.com" [ref=e20]
+                  - progressbar "Please wait" [active] [ref=e22]
+            - contentinfo [ref=e28]:
+              - generic [ref=e29]:
+                - link "Terms of use" [ref=e30] [cursor=pointer]:
+                  - /url: https://www.microsoft.com/en-US/servicesagreement/
+                - link "Privacy & cookies" [ref=e31] [cursor=pointer]:
+                  - /url: https://privacy.microsoft.com/en-US/privacystatement
+                - button "Click here for troubleshooting information" [ref=e32] [cursor=pointer]: ...

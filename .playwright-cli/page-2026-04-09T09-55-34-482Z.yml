@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - heading "An unhandled exception occurred while processing the request." [level=1] [ref=e2]
+  - generic [ref=e3]: "NullReferenceException: Object reference not set to an instance of an object."
+  - paragraph [ref=e4]:
+    - text: AspNetCoreGeneratedDocument.Views_Shared__Layout+<>c__DisplayClass40_0+<<ExecuteAsync>b__1>d.MoveNext() in
+    - code [ref=e5]: _Layout.cshtml
+    - text: ", line 177"
+  - generic [ref=e6]: "InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true."
+  - paragraph [ref=e7]: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+  - list [ref=e8]:
+    - listitem [ref=e9] [cursor=pointer]: Stack
+    - listitem [ref=e10] [cursor=pointer]: Query
+    - listitem [ref=e11] [cursor=pointer]: Cookies
+    - listitem [ref=e12] [cursor=pointer]: Headers
+    - listitem [ref=e13] [cursor=pointer]: Routing
+  - list [ref=e15]:
+    - listitem [ref=e16]:
+      - 'heading "NullReferenceException: Object reference not set to an instance of an object." [level=2] [ref=e17]'
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - heading "AspNetCoreGeneratedDocument.Views_Shared__Layout+<>c__DisplayClass40_0+<<ExecuteAsync>b__1>d.MoveNext() in _Layout.cshtml" [level=3] [ref=e20]:
+            - text: AspNetCoreGeneratedDocument.Views_Shared__Layout+<>c__DisplayClass40_0+<<ExecuteAsync>b__1>d.MoveNext() in
+            - code [ref=e21]: _Layout.cshtml
+        - listitem [ref=e22]:
+          - heading "Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()" [level=3] [ref=e23]
+        - listitem [ref=e24]:
+          - heading "AspNetCoreGeneratedDocument.Views_Shared__Layout.ExecuteAsync() in _Layout.cshtml" [level=3] [ref=e25]:
+            - text: AspNetCoreGeneratedDocument.Views_Shared__Layout.ExecuteAsync() in
+            - code [ref=e26]: _Layout.cshtml
+        - listitem [ref=e27]:
+          - heading "Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)" [level=3] [ref=e28]
+        - listitem [ref=e29]:
+          - heading "Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, bool invokeViewStarts)" [level=3] [ref=e30]
+        - listitem [ref=e31]:
+          - heading "Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)" [level=3] [ref=e32]
+        - listitem [ref=e33]:
+          - heading "Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)" [level=3] [ref=e34]
+        - listitem [ref=e35]:
+          - heading "Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, string contentType, Nullable<int> statusCode)" [level=3] [ref=e36]
+        - listitem [ref=e37]:
+          - heading "Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, string contentType, Nullable<int> statusCode)" [level=3] [ref=e38]
+        - listitem [ref=e39]:
+          - heading "Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, string contentType, Nullable<int> statusCode)" [level=3] [ref=e40]
+        - listitem [ref=e41]:
+          - heading "Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)" [level=3] [ref=e42]
+        - listitem [ref=e43]:
+          - heading "Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)" [level=3] [ref=e44]
+        - listitem [ref=e45]:
+          - heading "Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0<TFilter, TFilterAsync>(ResourceInvoker invoker, Task lastTask, State next, Scope scope, object state, bool isCompleted)" [level=3] [ref=e46]
+        - listitem [ref=e47]:
+          - heading "Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)" [level=3] [ref=e48]
+        - listitem [ref=e49]:
+          - heading "Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext<TFilter, TFilterAsync>(ref State next, ref Scope scope, ref object state, ref bool isCompleted)" [level=3] [ref=e50]
+        - listitem [ref=e51]:
+          - heading "Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()" [level=3] [ref=e52]
+        - listitem [ref=e53]:
+          - heading "Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, object state, bool isCompleted)" [level=3] [ref=e54]
+        - listitem [ref=e55]:
+          - heading "Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)" [level=3] [ref=e56]
+        - listitem [ref=e57]:
+          - heading "Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(ref State next, ref Scope scope, ref object state, ref bool isCompleted)" [level=3] [ref=e58]
+        - listitem [ref=e59]:
+          - heading "Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()" [level=3] [ref=e60]
+        - listitem [ref=e61]:
+          - heading "Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)" [level=3] [ref=e62]
+        - listitem [ref=e63]:
+          - heading "Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)" [level=3] [ref=e64]
+        - listitem [ref=e65]:
+          - heading "Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)" [level=3] [ref=e66]
+        - listitem [ref=e67]:
+          - heading "Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)" [level=3] [ref=e68]
+        - listitem [ref=e69]:
+          - heading "Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)" [level=3] [ref=e70]
+        - listitem [ref=e71]:
+          - heading "Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)" [level=3] [ref=e72]
+        - listitem [ref=e73]:
+          - heading "ErrorMonitoring.Client.Middleware.ErrorReportingMiddleware.InvokeAsync(HttpContext context)" [level=3] [ref=e74]
+        - listitem [ref=e75]:
+          - heading "ErrorMonitoring.Client.Middleware.ErrorReportingMiddleware.InvokeAsync(HttpContext context)" [level=3] [ref=e76]
+        - listitem [ref=e77]:
+          - heading "Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)" [level=3] [ref=e78]
+    - listitem [ref=e79]:
+      - button "Show raw exception details" [ref=e81] [cursor=pointer]
+    - listitem [ref=e82]:
+      - 'heading "InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true." [level=2] [ref=e83]'
+      - list [ref=e84]:
+        - listitem [ref=e85]:
+          - heading "Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)" [level=3] [ref=e86]
+        - listitem [ref=e87]:
+          - heading "Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)" [level=3] [ref=e88]
+        - listitem [ref=e89]:
+          - heading "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)" [level=3] [ref=e90]
+    - listitem [ref=e91]:
+      - button "Show raw exception details" [ref=e93] [cursor=pointer]

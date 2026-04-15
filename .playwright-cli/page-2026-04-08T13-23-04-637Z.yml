@@ -1,0 +1,580 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - text: 
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "My Approval" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /Approval/AllExpenseForms
+        - generic [ref=e67]: 
+        - generic [ref=e68]: Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /Approval/AllCostExpense
+        - generic [ref=e72]: 
+        - generic [ref=e73]: Employee Reimbursements
+    - listitem [ref=e74]:
+      - heading "All Submissions" [level=3] [ref=e75]
+    - listitem [ref=e76]:
+      - link " All Branch Reimbursements" [ref=e77] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e79]: 
+        - generic [ref=e80]: All Branch Reimbursements
+    - listitem [ref=e81]:
+      - link " All Employee Reimbursements" [ref=e82] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e84]: 
+        - generic [ref=e85]: All Employee Reimbursements
+    - listitem [ref=e86]:
+      - link " All Employee Vendor Expenses" [ref=e87] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e89]: 
+        - generic [ref=e90]: All Employee Vendor Expenses
+  - generic [ref=e94]:
+    - generic [ref=e95]:
+      - heading "Amaan's History" [level=5] [ref=e96]
+      - generic [ref=e97]:
+        - generic [ref=e98] [cursor=pointer]: "Search:"
+        - textbox "Search records..." [ref=e99]
+      - generic [ref=e100]:
+        - generic [ref=e101] [cursor=pointer]: "Status:"
+        - combobox [ref=e103]:
+          - option "All" [selected]
+          - option "Paid"
+          - option "Approved"
+          - option "Approved-Amended"
+          - option "Submitted"
+          - option "Denied"
+          - option "Pending"
+      - generic [ref=e104]:
+        - generic [ref=e105] [cursor=pointer]: "For LV:"
+        - button "Export" [ref=e106] [cursor=pointer]
+    - table [ref=e108]:
+      - rowgroup [ref=e109]:
+        - row "ID Vendor Name Amount Submitted Date Status Submitted By Last Updated Date Action" [ref=e110]:
+          - columnheader "ID" [ref=e111]
+          - columnheader "Vendor Name" [ref=e112]
+          - columnheader "Amount" [ref=e113]
+          - columnheader "Submitted Date" [ref=e114]
+          - columnheader "Status" [ref=e115]
+          - columnheader "Submitted By" [ref=e116]
+          - columnheader "Last Updated Date" [ref=e117]
+          - columnheader "Action" [ref=e118]
+      - rowgroup [ref=e119]:
+        - row "8296 N2CO $10000.00 1/1/0001 Approved-Amended Consultant SSO 9/25/2025 Details" [ref=e120]:
+          - cell "8296" [ref=e121]:
+            - generic [ref=e122]: "8296"
+          - cell "N2CO" [ref=e123]
+          - cell "$10000.00" [ref=e124]
+          - cell "1/1/0001" [ref=e125]
+          - cell "Approved-Amended" [ref=e126]
+          - cell "Consultant SSO" [ref=e127]
+          - cell "9/25/2025" [ref=e128]
+          - cell "Details" [ref=e129]:
+            - link "Details" [ref=e130] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8296
+        - row "8297 N2CO $450.00 9/2/2025 Submitted Consultant SSO 9/2/2025 Details" [ref=e131]:
+          - cell "8297" [ref=e132]:
+            - generic [ref=e133]: "8297"
+          - cell "N2CO" [ref=e134]
+          - cell "$450.00" [ref=e135]
+          - cell "9/2/2025" [ref=e136]
+          - cell "Submitted" [ref=e137]
+          - cell "Consultant SSO" [ref=e138]
+          - cell "9/2/2025" [ref=e139]
+          - cell "Details" [ref=e140]:
+            - link "Details" [ref=e141] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8297
+        - row "8298 N2CO $450.00 1/1/0001 Approved Consultant SSO 9/16/2025 Details" [ref=e142]:
+          - cell "8298" [ref=e143]:
+            - generic [ref=e144]: "8298"
+          - cell "N2CO" [ref=e145]
+          - cell "$450.00" [ref=e146]
+          - cell "1/1/0001" [ref=e147]
+          - cell "Approved" [ref=e148]
+          - cell "Consultant SSO" [ref=e149]
+          - cell "9/16/2025" [ref=e150]
+          - cell "Details" [ref=e151]:
+            - link "Details" [ref=e152] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8298
+        - row "8299 Yashaswi K... $2000.00 9/15/2025 Pending Consultant SSO 9/15/2025 Details" [ref=e153]:
+          - cell "8299" [ref=e154]:
+            - generic [ref=e155]: "8299"
+          - cell "Yashaswi K..." [ref=e156]
+          - cell "$2000.00" [ref=e157]
+          - cell "9/15/2025" [ref=e158]
+          - cell "Pending" [ref=e159]
+          - cell "Consultant SSO" [ref=e160]
+          - cell "9/15/2025" [ref=e161]
+          - cell "Details" [ref=e162]:
+            - link "Details" [ref=e163] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8299
+        - row " 8300 Yashaswi K... $202.00 9/15/2025 Submitted Consultant SSO 9/15/2025 Details" [ref=e164]:
+          - cell " 8300" [ref=e165]:
+            - generic [ref=e166]: 
+            - text: "8300"
+          - cell "Yashaswi K..." [ref=e167]
+          - cell "$202.00" [ref=e168]
+          - cell "9/15/2025" [ref=e169]
+          - cell "Submitted" [ref=e170]
+          - cell "Consultant SSO" [ref=e171]
+          - cell "9/15/2025" [ref=e172]
+          - cell "Details" [ref=e173]:
+            - link "Details" [ref=e174] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8300
+        - row " 8310 Eleven22 P... $450.00 9/16/2025 Submitted Consultant SSO 9/16/2025 Details" [ref=e175]:
+          - cell " 8310" [ref=e176]:
+            - generic [ref=e177]: 
+            - text: "8310"
+          - cell "Eleven22 P..." [ref=e178]
+          - cell "$450.00" [ref=e179]
+          - cell "9/16/2025" [ref=e180]
+          - cell "Submitted" [ref=e181]
+          - cell "Consultant SSO" [ref=e182]
+          - cell "9/16/2025" [ref=e183]
+          - cell "Details" [ref=e184]:
+            - link "Details" [ref=e185] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8310
+        - row " 8350 Yashaswi K... $450.00 9/17/2025 Submitted Consultant SSO 9/17/2025 Details" [ref=e186]:
+          - cell " 8350" [ref=e187]:
+            - generic [ref=e188]: 
+            - text: "8350"
+          - cell "Yashaswi K..." [ref=e189]
+          - cell "$450.00" [ref=e190]
+          - cell "9/17/2025" [ref=e191]
+          - cell "Submitted" [ref=e192]
+          - cell "Consultant SSO" [ref=e193]
+          - cell "9/17/2025" [ref=e194]
+          - cell "Details" [ref=e195]:
+            - link "Details" [ref=e196] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8350
+        - row "8352 DH Elite P... $2323.00 9/18/2025 Submitted Consultant SSO 9/18/2025 Details" [ref=e197]:
+          - cell "8352" [ref=e198]:
+            - generic [ref=e199]: "8352"
+          - cell "DH Elite P..." [ref=e200]
+          - cell "$2323.00" [ref=e201]
+          - cell "9/18/2025" [ref=e202]
+          - cell "Submitted" [ref=e203]
+          - cell "Consultant SSO" [ref=e204]
+          - cell "9/18/2025" [ref=e205]
+          - cell "Details" [ref=e206]:
+            - link "Details" [ref=e207] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8352
+        - row "8353 Shakur Tes... $3000.00 9/22/2025 Pending Consultant SSO 9/22/2025 Details" [ref=e208]:
+          - cell "8353" [ref=e209]:
+            - generic [ref=e210]: "8353"
+          - cell "Shakur Tes..." [ref=e211]
+          - cell "$3000.00" [ref=e212]
+          - cell "9/22/2025" [ref=e213]
+          - cell "Pending" [ref=e214]
+          - cell "Consultant SSO" [ref=e215]
+          - cell "9/22/2025" [ref=e216]
+          - cell "Details" [ref=e217]:
+            - link "Details" [ref=e218] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8353
+        - row "8354 Shakur Tes... $1000.00 9/22/2025 Approved-Amended Consultant SSO 9/22/2025 Details" [ref=e219]:
+          - cell "8354" [ref=e220]:
+            - generic [ref=e221]: "8354"
+          - cell "Shakur Tes..." [ref=e222]
+          - cell "$1000.00" [ref=e223]
+          - cell "9/22/2025" [ref=e224]
+          - cell "Approved-Amended" [ref=e225]
+          - cell "Consultant SSO" [ref=e226]
+          - cell "9/22/2025" [ref=e227]
+          - cell "Details" [ref=e228]:
+            - link "Details" [ref=e229] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8354
+        - row " 8355 DH Elite P... $202.00 9/22/2025 Submitted Consultant SSO 9/22/2025 Details" [ref=e230]:
+          - cell " 8355" [ref=e231]:
+            - generic [ref=e232]: 
+            - text: "8355"
+          - cell "DH Elite P..." [ref=e233]
+          - cell "$202.00" [ref=e234]
+          - cell "9/22/2025" [ref=e235]
+          - cell "Submitted" [ref=e236]
+          - cell "Consultant SSO" [ref=e237]
+          - cell "9/22/2025" [ref=e238]
+          - cell "Details" [ref=e239]:
+            - link "Details" [ref=e240] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8355
+        - row " 8356 shakur 123 $3000.00 9/22/2025 Paid Consultant SSO 9/22/2025 Details" [ref=e241]:
+          - cell " 8356" [ref=e242]:
+            - generic [ref=e243]: 
+            - text: "8356"
+          - cell "shakur 123" [ref=e244]
+          - cell "$3000.00" [ref=e245]
+          - cell "9/22/2025" [ref=e246]
+          - cell "Paid" [ref=e247]
+          - cell "Consultant SSO" [ref=e248]
+          - cell "9/22/2025" [ref=e249]
+          - cell "Details" [ref=e250]:
+            - link "Details" [ref=e251] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8356
+        - row " 8357 Test88 $8088.00 9/22/2025 Approved Consultant SSO 9/22/2025 Details" [ref=e252]:
+          - cell " 8357" [ref=e253]:
+            - generic [ref=e254]: 
+            - text: "8357"
+          - cell "Test88" [ref=e255]
+          - cell "$8088.00" [ref=e256]
+          - cell "9/22/2025" [ref=e257]
+          - cell "Approved" [ref=e258]
+          - cell "Consultant SSO" [ref=e259]
+          - cell "9/22/2025" [ref=e260]
+          - cell "Details" [ref=e261]:
+            - link "Details" [ref=e262] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8357
+        - row "8363 Shubham $980.00 9/23/2025 Paid Consultant SSO 9/23/2025 Details" [ref=e263]:
+          - cell "8363" [ref=e264]:
+            - generic [ref=e265]: "8363"
+          - cell "Shubham" [ref=e266]
+          - cell "$980.00" [ref=e267]
+          - cell "9/23/2025" [ref=e268]
+          - cell "Paid" [ref=e269]
+          - cell "Consultant SSO" [ref=e270]
+          - cell "9/23/2025" [ref=e271]
+          - cell "Details" [ref=e272]:
+            - link "Details" [ref=e273] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8363
+        - row "8364 Shakur Tes... $2000.00 9/23/2025 Approved Consultant SSO 9/23/2025 Details" [ref=e274]:
+          - cell "8364" [ref=e275]:
+            - generic [ref=e276]: "8364"
+          - cell "Shakur Tes..." [ref=e277]
+          - cell "$2000.00" [ref=e278]
+          - cell "9/23/2025" [ref=e279]
+          - cell "Approved" [ref=e280]
+          - cell "Consultant SSO" [ref=e281]
+          - cell "9/23/2025" [ref=e282]
+          - cell "Details" [ref=e283]:
+            - link "Details" [ref=e284] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8364
+        - row " 8365 Vendor 331 $331.00 9/23/2025 Approved-Amended Consultant SSO 9/23/2025 Details" [ref=e285]:
+          - cell " 8365" [ref=e286]:
+            - generic [ref=e287]: 
+            - text: "8365"
+          - cell "Vendor 331" [ref=e288]
+          - cell "$331.00" [ref=e289]
+          - cell "9/23/2025" [ref=e290]
+          - cell "Approved-Amended" [ref=e291]
+          - cell "Consultant SSO" [ref=e292]
+          - cell "9/23/2025" [ref=e293]
+          - cell "Details" [ref=e294]:
+            - link "Details" [ref=e295] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8365
+        - row "8367 Five Twent... $524.00 9/23/2025 Denied Consultant SSO 9/23/2025 Details" [ref=e296]:
+          - cell "8367" [ref=e297]:
+            - generic [ref=e298]: "8367"
+          - cell "Five Twent..." [ref=e299]
+          - cell "$524.00" [ref=e300]
+          - cell "9/23/2025" [ref=e301]
+          - cell "Denied" [ref=e302]
+          - cell "Consultant SSO" [ref=e303]
+          - cell "9/23/2025" [ref=e304]
+          - cell "Details" [ref=e305]:
+            - link "Details" [ref=e306] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8367
+        - row " 8368 Today Test $800.00 9/24/2025 Paid Consultant SSO 9/24/2025 Details" [ref=e307]:
+          - cell " 8368" [ref=e308]:
+            - generic [ref=e309]: 
+            - text: "8368"
+          - cell "Today Test" [ref=e310]
+          - cell "$800.00" [ref=e311]
+          - cell "9/24/2025" [ref=e312]
+          - cell "Paid" [ref=e313]
+          - cell "Consultant SSO" [ref=e314]
+          - cell "9/24/2025" [ref=e315]
+          - cell "Details" [ref=e316]:
+            - link "Details" [ref=e317] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8368
+        - row "8371 fds $132.00 9/24/2025 Submitted Amaan Ansari 4/7/2026 Details" [ref=e318]:
+          - cell "8371" [ref=e319]:
+            - generic [ref=e320]: "8371"
+          - cell "fds" [ref=e321]
+          - cell "$132.00" [ref=e322]
+          - cell "9/24/2025" [ref=e323]
+          - cell "Submitted" [ref=e324]
+          - cell "Amaan Ansari" [ref=e325]
+          - cell "4/7/2026" [ref=e326]
+          - cell "Details" [ref=e327]:
+            - link "Details" [ref=e328] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8371
+        - row "8372 Test@123 $1270.00 9/25/2025 Submitted Consultant SSO 9/25/2025 Details" [ref=e329]:
+          - cell "8372" [ref=e330]:
+            - generic [ref=e331]: "8372"
+          - cell "Test@123" [ref=e332]
+          - cell "$1270.00" [ref=e333]
+          - cell "9/25/2025" [ref=e334]
+          - cell "Submitted" [ref=e335]
+          - cell "Consultant SSO" [ref=e336]
+          - cell "9/25/2025" [ref=e337]
+          - cell "Details" [ref=e338]:
+            - link "Details" [ref=e339] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8372
+        - row " 8373 Shakur $2000.00 9/25/2025 Submitted Amaan Ansari 9/25/2025 Details" [ref=e340]:
+          - cell " 8373" [ref=e341]:
+            - generic [ref=e342]: 
+            - text: "8373"
+          - cell "Shakur" [ref=e343]
+          - cell "$2000.00" [ref=e344]
+          - cell "9/25/2025" [ref=e345]
+          - cell "Submitted" [ref=e346]
+          - cell "Amaan Ansari" [ref=e347]
+          - cell "9/25/2025" [ref=e348]
+          - cell "Details" [ref=e349]:
+            - link "Details" [ref=e350] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8373
+        - row "8376 Shakur Tes... $980.00 9/29/2025 Submitted Amaan Ansari 9/29/2025 Details" [ref=e351]:
+          - cell "8376" [ref=e352]:
+            - generic [ref=e353]: "8376"
+          - cell "Shakur Tes..." [ref=e354]
+          - cell "$980.00" [ref=e355]
+          - cell "9/29/2025" [ref=e356]
+          - cell "Submitted" [ref=e357]
+          - cell "Amaan Ansari" [ref=e358]
+          - cell "9/29/2025" [ref=e359]
+          - cell "Details" [ref=e360]:
+            - link "Details" [ref=e361] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8376
+        - row "8377 yashaswite... $100.00 10/17/2025 Submitted Yashaswi Kukreti 3/30/2026 Details" [ref=e362]:
+          - cell "8377" [ref=e363]:
+            - generic [ref=e364]: "8377"
+          - cell "yashaswite..." [ref=e365]
+          - cell "$100.00" [ref=e366]
+          - cell "10/17/2025" [ref=e367]
+          - cell "Submitted" [ref=e368]
+          - cell "Yashaswi Kukreti" [ref=e369]
+          - cell "3/30/2026" [ref=e370]
+          - cell "Details" [ref=e371]:
+            - link "Details" [ref=e372] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8377
+        - row " 8378 Shakur Tes... $980.00 10/27/2025 Submitted Consultant SSO 10/27/2025 Details" [ref=e373]:
+          - cell " 8378" [ref=e374]:
+            - generic [ref=e375]: 
+            - text: "8378"
+          - cell "Shakur Tes..." [ref=e376]
+          - cell "$980.00" [ref=e377]
+          - cell "10/27/2025" [ref=e378]
+          - cell "Submitted" [ref=e379]
+          - cell "Consultant SSO" [ref=e380]
+          - cell "10/27/2025" [ref=e381]
+          - cell "Details" [ref=e382]:
+            - link "Details" [ref=e383] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8378
+        - row "8380 Shakur Tes... $2000.00 10/29/2025 Submitted Consultant SSO 10/29/2025 Details" [ref=e384]:
+          - cell "8380" [ref=e385]:
+            - generic [ref=e386]: "8380"
+          - cell "Shakur Tes..." [ref=e387]
+          - cell "$2000.00" [ref=e388]
+          - cell "10/29/2025" [ref=e389]
+          - cell "Submitted" [ref=e390]
+          - cell "Consultant SSO" [ref=e391]
+          - cell "10/29/2025" [ref=e392]
+          - cell "Details" [ref=e393]:
+            - link "Details" [ref=e394] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8380
+        - row " 8381 test $1.00 11/7/2025 Submitted Amaan Ansari 11/7/2025 Details" [ref=e395]:
+          - cell " 8381" [ref=e396]:
+            - generic [ref=e397]: 
+            - text: "8381"
+          - cell "test" [ref=e398]
+          - cell "$1.00" [ref=e399]
+          - cell "11/7/2025" [ref=e400]
+          - cell "Submitted" [ref=e401]
+          - cell "Amaan Ansari" [ref=e402]
+          - cell "11/7/2025" [ref=e403]
+          - cell "Details" [ref=e404]:
+            - link "Details" [ref=e405] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8381
+        - row " 8384 yashaswite... $12.00 1/15/2026 Submitted Yashaswi Kukreti 1/15/2026 Details" [ref=e406]:
+          - cell " 8384" [ref=e407]:
+            - generic [ref=e408]: 
+            - text: "8384"
+          - cell "yashaswite..." [ref=e409]
+          - cell "$12.00" [ref=e410]
+          - cell "1/15/2026" [ref=e411]
+          - cell "Submitted" [ref=e412]
+          - cell "Yashaswi Kukreti" [ref=e413]
+          - cell "1/15/2026" [ref=e414]
+          - cell "Details" [ref=e415]:
+            - link "Details" [ref=e416] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8384
+        - row " 8390 yashaswi $234.00 1/19/2026 Submitted Yashaswi Kukreti 3/30/2026 Details" [ref=e417]:
+          - cell " 8390" [ref=e418]:
+            - generic [ref=e419]: 
+            - text: "8390"
+          - cell "yashaswi" [ref=e420]
+          - cell "$234.00" [ref=e421]
+          - cell "1/19/2026" [ref=e422]
+          - cell "Submitted" [ref=e423]
+          - cell "Yashaswi Kukreti" [ref=e424]
+          - cell "3/30/2026" [ref=e425]
+          - cell "Details" [ref=e426]:
+            - link "Details" [ref=e427] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8390
+        - row "8392 Yashaswife... $234.00 2/19/2026 Submitted Yashaswi Kukreti 2/19/2026 Details" [ref=e428]:
+          - cell "8392" [ref=e429]:
+            - generic [ref=e430]: "8392"
+          - cell "Yashaswife..." [ref=e431]
+          - cell "$234.00" [ref=e432]
+          - cell "2/19/2026" [ref=e433]
+          - cell "Submitted" [ref=e434]
+          - cell "Yashaswi Kukreti" [ref=e435]
+          - cell "2/19/2026" [ref=e436]
+          - cell "Details" [ref=e437]:
+            - link "Details" [ref=e438] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8392
+        - row "8393 Yashaswife... $100.00 2/19/2026 Approved Yashaswi Kukreti 2/19/2026 Details" [ref=e439]:
+          - cell "8393" [ref=e440]:
+            - generic [ref=e441]: "8393"
+          - cell "Yashaswife..." [ref=e442]
+          - cell "$100.00" [ref=e443]
+          - cell "2/19/2026" [ref=e444]
+          - cell "Approved" [ref=e445]
+          - cell "Yashaswi Kukreti" [ref=e446]
+          - cell "2/19/2026" [ref=e447]
+          - cell "Details" [ref=e448]:
+            - link "Details" [ref=e449] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8393
+        - row "8394 Vendor-1 $1000.00 3/18/2026 Submitted Nitish Kumar 3/18/2026 Details" [ref=e450]:
+          - cell "8394" [ref=e451]:
+            - generic [ref=e452]: "8394"
+          - cell "Vendor-1" [ref=e453]
+          - cell "$1000.00" [ref=e454]
+          - cell "3/18/2026" [ref=e455]
+          - cell "Submitted" [ref=e456]
+          - cell "Nitish Kumar" [ref=e457]
+          - cell "3/18/2026" [ref=e458]
+          - cell "Details" [ref=e459]:
+            - link "Details" [ref=e460] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8394
+        - row "8395 Vendor-2 $1010.00 3/18/2026 Approved Nitish Kumar 3/18/2026 Details" [ref=e461]:
+          - cell "8395" [ref=e462]:
+            - generic [ref=e463]: "8395"
+          - cell "Vendor-2" [ref=e464]
+          - cell "$1010.00" [ref=e465]
+          - cell "3/18/2026" [ref=e466]
+          - cell "Approved" [ref=e467]
+          - cell "Nitish Kumar" [ref=e468]
+          - cell "3/18/2026" [ref=e469]
+          - cell "Details" [ref=e470]:
+            - link "Details" [ref=e471] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8395
+        - row "8396 Vendor-5 $1040.00 3/19/2026 Submitted Nitish Kumar 3/19/2026 Details" [ref=e472]:
+          - cell "8396" [ref=e473]:
+            - generic [ref=e474]: "8396"
+          - cell "Vendor-5" [ref=e475]
+          - cell "$1040.00" [ref=e476]
+          - cell "3/19/2026" [ref=e477]
+          - cell "Submitted" [ref=e478]
+          - cell "Nitish Kumar" [ref=e479]
+          - cell "3/19/2026" [ref=e480]
+          - cell "Details" [ref=e481]:
+            - link "Details" [ref=e482] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8396
+        - row "8397 Vendor-6 $1050.00 3/19/2026 Paid Nitish Kumar 3/19/2026 Details" [ref=e483]:
+          - cell "8397" [ref=e484]:
+            - generic [ref=e485]: "8397"
+          - cell "Vendor-6" [ref=e486]
+          - cell "$1050.00" [ref=e487]
+          - cell "3/19/2026" [ref=e488]
+          - cell "Paid" [ref=e489]
+          - cell "Nitish Kumar" [ref=e490]
+          - cell "3/19/2026" [ref=e491]
+          - cell "Details" [ref=e492]:
+            - link "Details" [ref=e493] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8397
+        - row " 8398 Nitish off... $323.00 3/24/2026 Submitted Shivang Singh 3/24/2026 Details" [ref=e494]:
+          - cell " 8398" [ref=e495]:
+            - generic [ref=e496]: 
+            - text: "8398"
+          - cell "Nitish off..." [ref=e497]
+          - cell "$323.00" [ref=e498]
+          - cell "3/24/2026" [ref=e499]
+          - cell "Submitted" [ref=e500]
+          - cell "Shivang Singh" [ref=e501]
+          - cell "3/24/2026" [ref=e502]
+          - cell "Details" [ref=e503]:
+            - link "Details" [ref=e504] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8398
+        - row "8401 Rahul $1000.00 3/31/2026 Submitted Amaan Ansari 3/31/2026 Details" [ref=e505]:
+          - cell "8401" [ref=e506]:
+            - generic [ref=e507]: "8401"
+          - cell "Rahul" [ref=e508]
+          - cell "$1000.00" [ref=e509]
+          - cell "3/31/2026" [ref=e510]
+          - cell "Submitted" [ref=e511]
+          - cell "Amaan Ansari" [ref=e512]
+          - cell "3/31/2026" [ref=e513]
+          - cell "Details" [ref=e514]:
+            - link "Details" [ref=e515] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8401
+        - row "8402 Rahul Test $200.00 3/31/2026 Approved Amaan Ansari 4/8/2026 Details" [ref=e516]:
+          - cell "8402" [ref=e517]:
+            - generic [ref=e518]: "8402"
+          - cell "Rahul Test" [ref=e519]
+          - cell "$200.00" [ref=e520]
+          - cell "3/31/2026" [ref=e521]
+          - cell "Approved" [ref=e522]
+          - cell "Amaan Ansari" [ref=e523]
+          - cell "4/8/2026" [ref=e524]
+          - cell "Details" [ref=e525]:
+            - link "Details" [ref=e526] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8402
+        - row " 8403 Rishi Raj $400.00 4/7/2026 Submitted Amaan Ansari 4/7/2026 Details" [ref=e527]:
+          - cell " 8403" [ref=e528]:
+            - generic [ref=e529]: 
+            - text: "8403"
+          - cell "Rishi Raj" [ref=e530]
+          - cell "$400.00" [ref=e531]
+          - cell "4/7/2026" [ref=e532]
+          - cell "Submitted" [ref=e533]
+          - cell "Amaan Ansari" [ref=e534]
+          - cell "4/7/2026" [ref=e535]
+          - cell "Details" [ref=e536]:
+            - link "Details" [ref=e537] [cursor=pointer]:
+              - /url: /ActionCenter/ExpenseactionCenter?ID=8403
+    - text:  

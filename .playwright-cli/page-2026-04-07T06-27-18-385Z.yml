@@ -1,0 +1,126 @@
+- generic [active] [ref=e1]:
+  - text: l̥
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - text: 
+      - img "Rize Stacked Logo" [ref=e9]
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "A" [ref=e13] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e16]: A
+          - text: 
+    - list [ref=e24]:
+      - listitem [ref=e25]
+      - listitem [ref=e26]:
+        - heading "Employee Reimbursement" [level=3] [ref=e27]
+      - listitem [ref=e28]:
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - link " Expense Form" [ref=e31] [cursor=pointer]:
+              - /url: /AllForms/ExpenseForm
+              - generic [ref=e33]: 
+              - generic [ref=e34]: Expense Form
+          - listitem [ref=e35]:
+            - link " History" [ref=e36] [cursor=pointer]:
+              - /url: /ActionCenter/AllExpenseForms
+              - generic [ref=e38]: 
+              - generic [ref=e39]: History
+      - listitem [ref=e40]:
+        - heading "Branch Reimbursement" [level=3] [ref=e41]
+      - listitem [ref=e42]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - link " New Submission" [ref=e45] [cursor=pointer]:
+              - /url: /AllForms/CostExpenseForm
+              - generic [ref=e47]: 
+              - generic [ref=e48]: New Submission
+          - listitem [ref=e49]:
+            - link " History" [ref=e50] [cursor=pointer]:
+              - /url: /ActionCenter/AllCostExpense
+              - generic [ref=e52]: 
+              - generic [ref=e53]: History
+      - listitem [ref=e54]:
+        - heading "Branch Vendor Payments" [level=3] [ref=e55]
+      - listitem [ref=e56]:
+        - list [ref=e57]:
+          - listitem [ref=e58]:
+            - link " Request Vendor Payment" [ref=e59] [cursor=pointer]:
+              - /url: /AllForms/BranchVendorExpenseForm
+              - generic [ref=e61]: 
+              - generic [ref=e62]: Request Vendor Payment
+          - listitem [ref=e63]:
+            - link " History" [ref=e64] [cursor=pointer]:
+              - /url: /AllForms/GetMyVendorExpense
+              - generic [ref=e66]: 
+              - generic [ref=e67]: History
+      - listitem [ref=e68]:
+        - heading "My Approval" [level=3] [ref=e69]
+      - listitem [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link " Employee Reimbursements" [ref=e73] [cursor=pointer]:
+              - /url: /Approval/AllCostExpense
+              - generic [ref=e75]: 
+              - generic [ref=e76]: Employee Reimbursements
+      - listitem [ref=e77]:
+        - heading "All Submissions" [level=3] [ref=e78]
+      - listitem [ref=e79]:
+        - list [ref=e80]:
+          - listitem [ref=e81]:
+            - link " All Branch Reimbursements" [ref=e82] [cursor=pointer]:
+              - /url: /ActionCenter/AllSubmmissionCostExpense
+              - generic [ref=e84]: 
+              - generic [ref=e85]: All Branch Reimbursements
+          - listitem [ref=e86]:
+            - link " All Employee Reimbursements" [ref=e87] [cursor=pointer]:
+              - /url: /ActionCenter/AllSubmissionExpenseForms
+              - generic [ref=e89]: 
+              - generic [ref=e90]: All Employee Reimbursements
+          - listitem [ref=e91]:
+            - link " All Employee Vendor Expenses" [ref=e92] [cursor=pointer]:
+              - /url: /AllForms/GetAllVendorExpense
+              - generic [ref=e94]: 
+              - generic [ref=e95]: All Employee Vendor Expenses
+      - listitem [ref=e96]
+      - listitem [ref=e97]
+      - listitem [ref=e98]
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - img "Rize Stacked Logo" [ref=e104]
+        - generic [ref=e105]:
+          - heading "Welcome to the Employee Expense Portal!" [level=3] [ref=e106]
+          - paragraph [ref=e107]: 🌟 Your one-stop destination for all financial management needs!
+      - generic [ref=e108]:
+        - heading "Features:" [level=4] [ref=e109]
+        - list [ref=e110]:
+          - listitem [ref=e111]:
+            - strong [ref=e112]: "Expense Requests:"
+            - list [ref=e113]:
+              - listitem [ref=e114]: "Seamless Submissions: Submit your expense requests with just a few clicks. Attach bills, provide necessary details, and keep track of approvals."
+              - listitem [ref=e115]: "History & Tracking: Review past expense submissions, check the status of pending requests, and get real-time updates."
+          - listitem [ref=e116]:
+            - strong [ref=e117]: "Cost Center Management:"
+            - list [ref=e118]:
+              - listitem [ref=e119]: "Add & Allocate: Introduce new cost centers or allocate expenses to existing ones to ensure accurate financial reporting."
+              - listitem [ref=e120]: "Insights & Reports: Monitor spending, get insights on cost centers' performance, and make data-driven decisions."
+      - generic [ref=e121]:
+        - heading "Benefits:" [level=4] [ref=e122]
+        - list [ref=e123]:
+          - listitem [ref=e124]: "Efficiency: Reduce paperwork, save time, and enhance productivity with our easy-to-use portal."
+          - listitem [ref=e125]: "Transparency: Monitor and manage financial details with complete transparency."
+          - listitem [ref=e126]: "Accessibility: Access the portal anytime, anywhere, ensuring you’re always in control."
+      - generic [ref=e127]:
+        - heading "Getting Started:" [level=4] [ref=e128]
+        - list [ref=e129]:
+          - listitem [ref=e130]: Log In with your employee credentials.
+          - listitem [ref=e131]: "Navigate to the desired section: 'Expense Requests', or 'Cost Center Management'."
+          - listitem [ref=e132]: Start managing your tasks seamlessly!
+      - generic [ref=e133]:
+        - heading "🛠 Support & Assistance:" [level=4] [ref=e134]
+        - paragraph [ref=e135]:
+          - text: Facing an issue or need help? Reach out to our dedicated support team through the 'Help & Support' tab or email us at,
+          - link "support@rizemtg.com" [ref=e136] [cursor=pointer]:
+            - /url: mailto:support@rizemtg.com
+          - text: .
+      - paragraph [ref=e138]: Elevate your financial management experience with the Employee Expense Portal. Dive in and simplify your workflow today!

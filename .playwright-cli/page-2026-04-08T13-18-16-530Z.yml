@@ -1,0 +1,214 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - text: 
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "My Approval" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /Approval/AllExpenseForms
+        - generic [ref=e67]: 
+        - generic [ref=e68]: Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /Approval/AllCostExpense
+        - generic [ref=e72]: 
+        - generic [ref=e73]: Employee Reimbursements
+    - listitem [ref=e74]:
+      - heading "All Submissions" [level=3] [ref=e75]
+    - listitem [ref=e76]:
+      - link " All Branch Reimbursements" [ref=e77] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e79]: 
+        - generic [ref=e80]: All Branch Reimbursements
+    - listitem [ref=e81]:
+      - link " All Employee Reimbursements" [ref=e82] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e84]: 
+        - generic [ref=e85]: All Employee Reimbursements
+    - listitem [ref=e86]:
+      - link " All Employee Vendor Expenses" [ref=e87] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e89]: 
+        - generic [ref=e90]: All Employee Vendor Expenses
+  - generic [ref=e91]:
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - heading "History" [level=5] [ref=e96]
+        - generic [ref=e97]:
+          - generic [ref=e98] [cursor=pointer]: "Status:"
+          - combobox [ref=e100]:
+            - option "All" [selected]
+            - option "Paid"
+            - option "Approved"
+            - option "Approved-Amended"
+            - option "Submitted"
+            - option "Denied"
+            - option "Pending"
+        - generic [ref=e101]:
+          - generic [ref=e102] [cursor=pointer]: "For LV:"
+          - button "Export" [ref=e103] [cursor=pointer]
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - searchbox [ref=e109]
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e114]: Export
+              - generic [ref=e115]:
+                - button "" [ref=e116] [cursor=pointer]
+                - button "" [ref=e117] [cursor=pointer]
+                - button "" [ref=e118] [cursor=pointer]
+                - text: 
+            - generic [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]: Show
+              - generic [ref=e122]:
+                - combobox "Show " [ref=e123]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: 
+        - grid [ref=e125]:
+          - rowgroup [ref=e126]:
+            - 'row "Branch Expense ID : activate to sort column descending Vendor Name : activate to sort column ascending Amount : activate to sort column ascending Status : activate to sort column ascending Submitted By : activate to sort column ascending" [ref=e127]':
+              - 'columnheader "Branch Expense ID : activate to sort column descending" [ref=e128] [cursor=pointer]': ↑ Branch Expense ID ↓
+              - 'columnheader "Vendor Name : activate to sort column ascending" [ref=e129] [cursor=pointer]': ↑ Vendor Name ↓
+              - 'columnheader "Amount : activate to sort column ascending" [ref=e130] [cursor=pointer]': ↑ Amount ↓
+              - 'columnheader "Status : activate to sort column ascending" [ref=e131] [cursor=pointer]': ↑ Status ↓
+              - 'columnheader "Submitted By : activate to sort column ascending" [ref=e132] [cursor=pointer]': ↑ Submitted By ↓
+              - text: ↑ ↓ ↑ ↓
+          - rowgroup [ref=e133]:
+            - row " 0D10 -0001 N2CO $5000.00 Paid Consultant SSO" [ref=e211]:
+              - gridcell " 0D10 -0001" [ref=e212] [cursor=pointer]
+              - gridcell "N2CO" [ref=e136]
+              - gridcell "$5000.00" [ref=e137]
+              - gridcell "Paid" [ref=e138]
+              - gridcell "Consultant SSO" [ref=e139]
+            - row "Last Updated Date 9/23/2025 Action Details" [ref=e213]:
+              - gridcell "Last Updated Date 9/23/2025 Action Details" [ref=e214]:
+                - list [ref=e215]:
+                  - listitem [ref=e216]: Last Updated Date 9/23/2025
+                  - listitem [ref=e217]:
+                    - text: Action
+                    - link "Details" [ref=e219] [cursor=pointer]:
+                      - /url: /ActionCenter/CostactionCenter?ID=6056
+            - row " 0D10 -0002 testing $100.00 Submitted Consultant SSO" [ref=e140]:
+              - gridcell " 0D10 -0002" [ref=e141] [cursor=pointer]
+              - gridcell "testing" [ref=e142]
+              - gridcell "$100.00" [ref=e143]
+              - gridcell "Submitted" [ref=e144]
+              - gridcell "Consultant SSO" [ref=e145]
+            - row " 0D10 -0003 testing $100.00 Approved-Amended Consultant SSO" [ref=e146]:
+              - gridcell " 0D10 -0003" [ref=e147] [cursor=pointer]
+              - gridcell "testing" [ref=e148]
+              - gridcell "$100.00" [ref=e149]
+              - gridcell "Approved-Amended" [ref=e150]
+              - gridcell "Consultant SSO" [ref=e151]
+            - row " 0D10 -0004 testing $100.00 Submitted Consultant SSO" [ref=e152]:
+              - gridcell " 0D10 -0004" [ref=e153] [cursor=pointer]
+              - gridcell "testing" [ref=e154]
+              - gridcell "$100.00" [ref=e155]
+              - gridcell "Submitted" [ref=e156]
+              - gridcell "Consultant SSO" [ref=e157]
+            - row " 0D10 -0005 testing $100.00 Submitted Consultant SSO" [ref=e158]:
+              - gridcell " 0D10 -0005" [ref=e159] [cursor=pointer]
+              - gridcell "testing" [ref=e160]
+              - gridcell "$100.00" [ref=e161]
+              - gridcell "Submitted" [ref=e162]
+              - gridcell "Consultant SSO" [ref=e163]
+            - row " 0D10 -0009 Yashaswi Kukretiiiii $200.00 Submitted Consultant SSO" [ref=e164]:
+              - gridcell " 0D10 -0009" [ref=e165] [cursor=pointer]
+              - gridcell "Yashaswi Kukretiiiii" [ref=e166]
+              - gridcell "$200.00" [ref=e167]
+              - gridcell "Submitted" [ref=e168]
+              - gridcell "Consultant SSO" [ref=e169]
+            - row " 0D10 -0010 Eleven22 Processing, LLC $450.00 Submitted Consultant SSO" [ref=e170]:
+              - gridcell " 0D10 -0010" [ref=e171] [cursor=pointer]
+              - gridcell "Eleven22 Processing, LLC" [ref=e172]
+              - gridcell "$450.00" [ref=e173]
+              - gridcell "Submitted" [ref=e174]
+              - gridcell "Consultant SSO" [ref=e175]
+            - row " 0D10 -0016 N2CO $202.00 Submitted Consultant SSO" [ref=e176]:
+              - gridcell " 0D10 -0016" [ref=e177] [cursor=pointer]
+              - gridcell "N2CO" [ref=e178]
+              - gridcell "$202.00" [ref=e179]
+              - gridcell "Submitted" [ref=e180]
+              - gridcell "Consultant SSO" [ref=e181]
+            - row " 0D10 -0018 DH Elite Processing $90000.00 Submitted Consultant SSO" [ref=e182]:
+              - gridcell " 0D10 -0018" [ref=e183] [cursor=pointer]
+              - gridcell "DH Elite Processing" [ref=e184]
+              - gridcell "$90000.00" [ref=e185]
+              - gridcell "Submitted" [ref=e186]
+              - gridcell "Consultant SSO" [ref=e187]
+            - row " 0D10 -0020 Test123 $192.00 Approved Consultant SSO" [ref=e188]:
+              - gridcell " 0D10 -0020" [ref=e189] [cursor=pointer]
+              - gridcell "Test123" [ref=e190]
+              - gridcell "$192.00" [ref=e191]
+              - gridcell "Approved" [ref=e192]
+              - gridcell "Consultant SSO" [ref=e193]
+        - generic [ref=e194]:
+          - list [ref=e197]:
+            - listitem [ref=e198]:
+              - link "Prev":
+                - /url: "#"
+            - listitem [ref=e199] [cursor=pointer]:
+              - link "1" [ref=e200]:
+                - /url: "#"
+            - listitem [ref=e201] [cursor=pointer]:
+              - link "2" [ref=e202]:
+                - /url: "#"
+            - listitem [ref=e203] [cursor=pointer]:
+              - link "3" [ref=e204]:
+                - /url: "#"
+            - listitem [ref=e205] [cursor=pointer]:
+              - link "4" [ref=e206]:
+                - /url: "#"
+            - listitem [ref=e207] [cursor=pointer]:
+              - link "Next" [ref=e208]:
+                - /url: "#"
+          - status [ref=e210]: 1 -10 of 39
+    - text:  

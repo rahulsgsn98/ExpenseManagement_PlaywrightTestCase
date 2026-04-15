@@ -1,0 +1,2 @@
+[    2298ms] ReferenceError: $ is not defined
+    at https://expense-staging-ccbyhcf2fch9cmgf.eastus-01.azurewebsites.net/AllForms/CostExpenseForm:612:5

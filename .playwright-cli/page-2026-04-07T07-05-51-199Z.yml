@@ -1,0 +1,146 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - text: 
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "My Approval" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /Approval/AllExpenseForms
+        - generic [ref=e67]: 
+        - generic [ref=e68]: Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /Approval/AllCostExpense
+        - generic [ref=e72]: 
+        - generic [ref=e73]: Employee Reimbursements
+    - listitem [ref=e74]:
+      - heading "All Submissions" [level=3] [ref=e75]
+    - listitem [ref=e76]:
+      - link " All Branch Reimbursements" [ref=e77] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e79]: 
+        - generic [ref=e80]: All Branch Reimbursements
+    - listitem [ref=e81]:
+      - link " All Employee Reimbursements" [ref=e82] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e84]: 
+        - generic [ref=e85]: All Employee Reimbursements
+    - listitem [ref=e86]:
+      - link " All Employee Vendor Expenses" [ref=e87] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e89]: 
+        - generic [ref=e90]: All Employee Vendor Expenses
+  - generic [ref=e94]:
+    - heading "New Submission" [level=5] [ref=e96]
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e100]:
+          - textbox "Amount *" [ref=e103]:
+            - /placeholder: Enter Amount
+          - generic: Amount *
+        - generic [ref=e105]:
+          - combobox "Expense Category *" [ref=e106]:
+            - option "Select Expense Category" [selected]
+            - option "60110 Relocation Expense"
+            - option "60120 Training"
+            - option "60130 Continuing Education"
+            - option "60140 Employee Events"
+            - option "60150 Recruitment"
+            - option "63010 Meals & Entertainment"
+            - option "63020 Travel"
+            - option "63025 Auto Expense/Mileage"
+            - option "63025 Auto Expense/Gas"
+            - option "63035 Hotel"
+            - option "63040 Travel & Entertainment - Other"
+            - option "63110 Office Expense - Cleaning"
+            - option "63115 Office Maintenance & Services"
+            - option "63125 Telephone/Internet"
+            - option "63130 Office Supplies"
+            - option "63135 Utilities"
+            - option "65010 License and Permits"
+            - option "65011 NMLS Licensing Fees"
+            - option "65012 Computer & Internet Expenses"
+            - option "65015 Donations"
+            - option "65016 Seminars and Continuing Education"
+            - option "65025 Membership Fees"
+            - option "65030 Computer & Office Equipment"
+            - option "65039 Postage"
+            - option "65040 Courier and Delivery Fees"
+            - option "66010 Dues & Subscriptions"
+            - option "Other"
+          - generic: Expense Category *
+        - generic [ref=e108]:
+          - textbox "Incurred Date *" [ref=e109]
+          - generic: Incurred Date *
+          - generic: Section 1.62-2(g)(2)(i) of the IRS provides a fixed date method safe harbor for purposes of satisfying the 'reasonable period of time' requirement. Under this safe harbor, an expense substantiated to the payor within 60 days after it is paid or incurred will be treated as substantiated within a reasonable period of time.
+        - generic [ref=e111]:
+          - combobox "Cost Center ID *" [ref=e112]:
+            - option "Select Cost Center" [selected]
+            - option "S10000B100R00D10"
+            - option "S31900B319R00D11"
+            - option "S13201B132R00D12"
+            - option "S13000B130R00D10"
+          - generic: Cost Center ID *
+        - generic [ref=e114]:
+          - textbox "Vendor Name *" [ref=e115]:
+            - /placeholder: Enter Vendor Name
+          - generic: Vendor Name *
+          - generic: If this is a reimbursement for multiple expenses on your credit card just type "My Credit Card" for vendor, if it is for another employee in your Cost Center then please write type their name in as the vendor
+        - generic [ref=e116]:
+          - generic [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - text: Supporting Documents *
+          - button "Supporting Documents *" [ref=e120]
+        - generic [ref=e122]:
+          - textbox "Description *" [ref=e123]:
+            - /placeholder: Enter Expense Description
+          - generic: Description *
+      - generic [ref=e124]: Per company policy, if a branch is not fully reserved, managers are not approved to spend in excess of the expenses already being paid by the branch. Any expenses submitted in that situation are unauthorized and will not be reimbursed through the cost center. You may be able to use the employee expense - Tax Benefit Plan. If you have any questions or concerns, please contact your direct manager or the finance department.
+      - generic [ref=e125]:
+        - button "Submit" [ref=e128] [cursor=pointer]
+        - button "Submit and Add New" [ref=e131] [cursor=pointer]

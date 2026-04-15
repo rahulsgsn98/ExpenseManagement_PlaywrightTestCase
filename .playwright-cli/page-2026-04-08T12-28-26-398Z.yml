@@ -1,0 +1,282 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - text: 
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "My Approval" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /Approval/AllExpenseForms
+        - generic [ref=e67]: 
+        - generic [ref=e68]: Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /Approval/AllCostExpense
+        - generic [ref=e72]: 
+        - generic [ref=e73]: Employee Reimbursements
+    - listitem [ref=e74]:
+      - heading "All Submissions" [level=3] [ref=e75]
+    - listitem [ref=e76]:
+      - link " All Branch Reimbursements" [ref=e77] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e79]: 
+        - generic [ref=e80]: All Branch Reimbursements
+    - listitem [ref=e81]:
+      - link " All Employee Reimbursements" [ref=e82] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e84]: 
+        - generic [ref=e85]: All Employee Reimbursements
+    - listitem [ref=e86]:
+      - link " All Employee Vendor Expenses" [ref=e87] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e89]: 
+        - generic [ref=e90]: All Employee Vendor Expenses
+  - generic [ref=e92]:
+    - generic [ref=e95]:
+      - list [ref=e97]:
+        - listitem [ref=e98]:
+          - link " Edit" [ref=e99] [cursor=pointer]:
+            - /url: /AllForms/EditVendorExpenseDetails/24
+            - emphasis [ref=e100]: 
+            - generic [ref=e101]: Edit
+        - listitem [ref=e102]:
+          - button " Add Attachments" [ref=e103] [cursor=pointer]:
+            - emphasis [ref=e104]: 
+            - generic [ref=e105]: Add Attachments
+      - generic [ref=e106]:
+        - generic [ref=e108]:
+          - generic [ref=e110] [cursor=pointer]: Cost Center
+          - paragraph [ref=e111]: S10900B109R00D11
+        - generic [ref=e113]:
+          - generic [ref=e115] [cursor=pointer]: Full Name
+          - paragraph [ref=e116]: DH Elite Processing
+        - generic [ref=e118]:
+          - generic [ref=e120] [cursor=pointer]: Expense Category
+          - paragraph [ref=e121]: 65039 Postage
+        - generic [ref=e123]:
+          - generic [ref=e125] [cursor=pointer]: Amount
+          - paragraph [ref=e126]: $202.00
+        - generic [ref=e128]:
+          - generic [ref=e130] [cursor=pointer]: Approved Amount
+          - paragraph [ref=e131]: $ 56.00
+        - generic [ref=e133]:
+          - generic [ref=e135] [cursor=pointer]: Submission Date
+          - paragraph [ref=e136]: 9/15/2025
+        - generic [ref=e138]:
+          - generic [ref=e140] [cursor=pointer]: Incurred Date
+          - paragraph [ref=e141]: 7/6/2027
+        - generic [ref=e143]:
+          - generic [ref=e145] [cursor=pointer]: Submitted By
+          - paragraph [ref=e146]: Consultant SSO
+    - generic [ref=e149]:
+      - list [ref=e151]:
+        - listitem [ref=e152]:
+          - generic [ref=e153]:
+            - emphasis [ref=e154]: 
+            - generic [ref=e155]: Internal Finance Team
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - generic [ref=e159]:
+            - combobox "Status *" [ref=e160]:
+              - option "Select Status"
+              - option "Approved"
+              - option "Approved-Amended" [selected]
+              - option "Denied"
+              - option "Paid"
+              - option "Pending"
+            - generic: Status *
+          - generic [ref=e162]:
+            - textbox "Enter Amount" [ref=e163]:
+              - /placeholder: " Enter Amount"
+            - generic: Approved Amount*
+          - generic [ref=e164]:
+            - generic [ref=e166] [cursor=pointer]:
+              - img [ref=e167]
+              - text: Supporting Documents *
+            - button "Supporting Documents *" [ref=e168]
+          - generic [ref=e170]:
+            - textbox "Add Remark" [ref=e171]:
+              - /placeholder: " Add Remark"
+              - text: Intial Insert with 1200
+            - generic: Remarks to Submitter *
+        - button "Update" [ref=e175] [cursor=pointer]
+    - generic [ref=e178]:
+      - list [ref=e180]:
+        - listitem [ref=e181]:
+          - generic [ref=e182]:
+            - emphasis [ref=e183]: 
+            - generic [ref=e184]: Comments Section
+      - generic [ref=e185]:
+        - textbox [ref=e186]
+        - button "Add Comments" [ref=e187] [cursor=pointer]
+      - generic [ref=e188]:
+        - list [ref=e189]:
+          - listitem [ref=e190]:
+            - generic [ref=e191]:
+              - emphasis [ref=e192]: 
+              - generic [ref=e193]: All Comments
+        - generic [ref=e194]:
+          - generic [ref=e195]: SSO_Test1@rizemtg.com
+          - generic [ref=e196]: 9/18/2025 6:11:30 PM
+          - generic [ref=e197]: hello
+    - generic [ref=e200]:
+      - list [ref=e202]:
+        - listitem [ref=e203]:
+          - generic [ref=e204]:
+            - emphasis [ref=e205]: 
+            - generic [ref=e206]: All Documents
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - searchbox [ref=e212]
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - generic [ref=e217]: Export
+              - generic [ref=e218]:
+                - button "" [ref=e219] [cursor=pointer]
+                - button "" [ref=e220] [cursor=pointer]
+                - button "" [ref=e221] [cursor=pointer]
+                - button "" [ref=e222] [cursor=pointer]
+            - generic [ref=e224] [cursor=pointer]:
+              - generic [ref=e225]: Show
+              - generic [ref=e226]:
+                - combobox "Show " [ref=e227]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: 
+        - grid [ref=e229]:
+          - rowgroup [ref=e230]:
+            - 'row "File Name: activate to sort column descending Attachment: activate to sort column ascending Created By: activate to sort column ascending" [ref=e231]':
+              - 'columnheader "File Name: activate to sort column descending" [ref=e232] [cursor=pointer]': ↑ File Name ↓
+              - 'columnheader "Attachment: activate to sort column ascending" [ref=e233] [cursor=pointer]': ↑ Attachment ↓
+              - 'columnheader "Created By: activate to sort column ascending" [ref=e234] [cursor=pointer]': ↑ Created By ↓
+              - text: ↑ ↓
+          - rowgroup [ref=e235]:
+            - row " 6157cf57-154e-4d6a-9cee-073349554878.png  Consultant SSO" [ref=e236]:
+              - gridcell " 6157cf57-154e-4d6a-9cee-073349554878.png" [ref=e237] [cursor=pointer]
+              - gridcell "" [ref=e238]:
+                - link "" [ref=e239] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/vendorexpense/dd3f63c4-da69-4563-9f09-1683d6d851e5_6157cf57-154e-4d6a-9cee-073349554878.png
+                  - emphasis [ref=e240]: 
+              - gridcell "Consultant SSO" [ref=e241]
+            - row " afd3f5b7-774b-4acc-bd62-0b2bb942049f_AD Mortgage AE Contact Info.docx  Consultant SSO" [ref=e242]:
+              - gridcell " afd3f5b7-774b-4acc-bd62-0b2bb942049f_AD Mortgage AE Contact Info.docx" [ref=e243] [cursor=pointer]
+              - gridcell "" [ref=e244]:
+                - link "" [ref=e245] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/approve/3dda763e-55fb-4dfe-8648-20755dfec9ba_afd3f5b7-774b-4acc-bd62-0b2bb942049f_AD Mortgage AE Contact Info.docx
+                  - emphasis [ref=e246]: 
+              - gridcell "Consultant SSO" [ref=e247]
+            - row " commercial app- SIMPLE (1).pdf  Consultant SSO" [ref=e248]:
+              - gridcell " commercial app- SIMPLE (1).pdf" [ref=e249] [cursor=pointer]
+              - gridcell "" [ref=e250]:
+                - link "" [ref=e251] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/vendorexpense/60be5724-d5c9-4123-9811-cd5d0885b6f7_commercial   app- SIMPLE %281%29.pdf
+                  - emphasis [ref=e252]: 
+              - gridcell "Consultant SSO" [ref=e253]
+            - row " commercial app- SIMPLE (1).pdf  Consultant SSO" [ref=e254]:
+              - gridcell " commercial app- SIMPLE (1).pdf" [ref=e255] [cursor=pointer]
+              - gridcell "" [ref=e256]:
+                - link "" [ref=e257] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/vendorexpense/95c6ccca-f04d-4156-bb72-cdc402827720_commercial   app- SIMPLE %281%29.pdf
+                  - emphasis [ref=e258]: 
+              - gridcell "Consultant SSO" [ref=e259]
+            - row " commercial app- SIMPLE (1).pdf  Consultant SSO" [ref=e260]:
+              - gridcell " commercial app- SIMPLE (1).pdf" [ref=e261] [cursor=pointer]
+              - gridcell "" [ref=e262]:
+                - link "" [ref=e263] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/vendorexpense/a20ea562-f621-48ec-b020-f2d5ee332443_commercial   app- SIMPLE %281%29.pdf
+                  - emphasis [ref=e264]: 
+              - gridcell "Consultant SSO" [ref=e265]
+            - row " commercial app- SIMPLE (1).pdf  Consultant SSO" [ref=e266]:
+              - gridcell " commercial app- SIMPLE (1).pdf" [ref=e267] [cursor=pointer]
+              - gridcell "" [ref=e268]:
+                - link "" [ref=e269] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/vendorexpense/3fe73c14-8eea-4bff-9c60-75ea71879334_commercial   app- SIMPLE %281%29.pdf
+                  - emphasis [ref=e270]: 
+              - gridcell "Consultant SSO" [ref=e271]
+            - row " commercial app- SIMPLE (1).pdf  Consultant SSO" [ref=e272]:
+              - gridcell " commercial app- SIMPLE (1).pdf" [ref=e273] [cursor=pointer]
+              - gridcell "" [ref=e274]:
+                - link "" [ref=e275] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/vendorexpense/c2ae425c-65c9-4972-974a-434c4858e54b_commercial   app- SIMPLE %281%29.pdf
+                  - emphasis [ref=e276]: 
+              - gridcell "Consultant SSO" [ref=e277]
+            - row " commercial app- SIMPLE.pdf  Consultant SSO" [ref=e278]:
+              - gridcell " commercial app- SIMPLE.pdf" [ref=e279] [cursor=pointer]
+              - gridcell "" [ref=e280]:
+                - link "" [ref=e281] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/approve/8109b92f-87e4-4d07-a158-be197b49df97_commercial   app- SIMPLE.pdf
+                  - emphasis [ref=e282]: 
+              - gridcell "Consultant SSO" [ref=e283]
+            - row " ExpenseManagementSystem_DetailedAPI_Doc.docx  Consultant SSO" [ref=e284]:
+              - gridcell " ExpenseManagementSystem_DetailedAPI_Doc.docx" [ref=e285] [cursor=pointer]
+              - gridcell "" [ref=e286]:
+                - link "" [ref=e287] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/approve/e87839d6-d043-4f18-966b-5b25b3af4d5f_ExpenseManagementSystem_DetailedAPI_Doc.docx
+                  - emphasis [ref=e288]: 
+              - gridcell "Consultant SSO" [ref=e289]
+            - row " ExpenseManagementSystem_Documentation.docx  Consultant SSO" [ref=e290]:
+              - gridcell " ExpenseManagementSystem_Documentation.docx" [ref=e291] [cursor=pointer]
+              - gridcell "" [ref=e292]:
+                - link "" [ref=e293] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/approve/92904988-0260-4dd4-8b81-ffa64794ce84_ExpenseManagementSystem_Documentation.docx
+                  - emphasis [ref=e294]: 
+              - gridcell "Consultant SSO" [ref=e295]
+        - generic [ref=e296]:
+          - list [ref=e299]:
+            - listitem [ref=e300]:
+              - link "Prev":
+                - /url: "#"
+            - listitem [ref=e301] [cursor=pointer]:
+              - link "1" [ref=e302]:
+                - /url: "#"
+            - listitem [ref=e303]:
+              - link "Next":
+                - /url: "#"
+          - status [ref=e305]: 1 -10 of 10
+    - text: 

@@ -1,0 +1,300 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - text: 
+    - img "Rize Stacked Logo" [ref=e9]
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "A" [ref=e13] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e16]: A
+        - text: 
+  - list [ref=e24]:
+    - listitem [ref=e25]
+    - listitem [ref=e26]:
+      - heading "Employee Reimbursement" [level=3] [ref=e27]
+    - listitem [ref=e28]:
+      - link " Expense Form" [ref=e29] [cursor=pointer]:
+        - /url: /AllForms/ExpenseForm
+        - generic [ref=e31]: 
+        - generic [ref=e32]: Expense Form
+    - listitem [ref=e33]:
+      - link " History" [ref=e34] [cursor=pointer]:
+        - /url: /ActionCenter/AllExpenseForms
+        - generic [ref=e36]: 
+        - generic [ref=e37]: History
+    - listitem [ref=e38]:
+      - heading "Branch Reimbursement" [level=3] [ref=e39]
+    - listitem [ref=e40]:
+      - link " New Submission" [ref=e41] [cursor=pointer]:
+        - /url: /AllForms/CostExpenseForm
+        - generic [ref=e43]: 
+        - generic [ref=e44]: New Submission
+    - listitem [ref=e45]:
+      - link " History" [ref=e46] [cursor=pointer]:
+        - /url: /ActionCenter/AllCostExpense
+        - generic [ref=e48]: 
+        - generic [ref=e49]: History
+    - listitem [ref=e50]:
+      - heading "Branch Vendor Payments" [level=3] [ref=e51]
+    - listitem [ref=e52]:
+      - link " Request Vendor Payment" [ref=e53] [cursor=pointer]:
+        - /url: /AllForms/BranchVendorExpenseForm
+        - generic [ref=e55]: 
+        - generic [ref=e56]: Request Vendor Payment
+    - listitem [ref=e57]:
+      - link " History" [ref=e58] [cursor=pointer]:
+        - /url: /AllForms/GetMyVendorExpense
+        - generic [ref=e60]: 
+        - generic [ref=e61]: History
+    - listitem [ref=e62]:
+      - heading "My Approval" [level=3] [ref=e63]
+    - listitem [ref=e64]:
+      - link " Branch Reimbursements" [ref=e65] [cursor=pointer]:
+        - /url: /Approval/AllExpenseForms
+        - generic [ref=e67]: 
+        - generic [ref=e68]: Branch Reimbursements
+    - listitem [ref=e69]:
+      - link " Employee Reimbursements" [ref=e70] [cursor=pointer]:
+        - /url: /Approval/AllCostExpense
+        - generic [ref=e72]: 
+        - generic [ref=e73]: Employee Reimbursements
+    - listitem [ref=e74]:
+      - heading "All Submissions" [level=3] [ref=e75]
+    - listitem [ref=e76]:
+      - link " All Branch Reimbursements" [ref=e77] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmmissionCostExpense
+        - generic [ref=e79]: 
+        - generic [ref=e80]: All Branch Reimbursements
+    - listitem [ref=e81]:
+      - link " All Employee Reimbursements" [ref=e82] [cursor=pointer]:
+        - /url: /ActionCenter/AllSubmissionExpenseForms
+        - generic [ref=e84]: 
+        - generic [ref=e85]: All Employee Reimbursements
+    - listitem [ref=e86]:
+      - link " All Employee Vendor Expenses" [ref=e87] [cursor=pointer]:
+        - /url: /AllForms/GetAllVendorExpense
+        - generic [ref=e89]: 
+        - generic [ref=e90]: All Employee Vendor Expenses
+  - generic [ref=e91]:
+    - generic [ref=e94]:
+      - heading "Expense Form" [level=5] [ref=e95]
+      - generic [ref=e97]:
+        - generic [ref=e99]:
+          - textbox "Expense Submission Date*" [ref=e100]: 2025-09-19
+          - generic: Expense Submission Date*
+        - generic [ref=e102]:
+          - generic: Amount*
+          - textbox "Amount*" [ref=e103]:
+            - /placeholder: Enter Amount
+            - text: "10000.00"
+        - generic [ref=e105]:
+          - generic: Expense Date*
+          - textbox "Expense Date*" [ref=e106]: 2025-09-18
+        - generic [ref=e108]:
+          - generic: Expense Category*
+          - combobox "Expense Category*" [ref=e109]:
+            - option "Select Expense Category" [selected]
+            - option "60120 Training"
+            - option "60130 Continuing Education"
+            - option "60140 Employee Events"
+            - option "60150 Recruitment"
+            - option "63010 Meals & Entertainment"
+            - option "63020 Travel"
+            - option "63025 Auto Expense/Mileage"
+            - option "63025 Auto Expense/Gas"
+            - option "63035 Hotel"
+            - option "63040 Travel & Entertainment - Other"
+            - option "63130 Office Supplies"
+            - option "65010 License and Permits"
+            - option "65011 NMLS Licensing Fees"
+            - option "65012 Computer & Internet Expenses"
+            - option "65015 Donations"
+            - option "65016 Seminars and Continuing Education"
+            - option "65025 Membership Fees"
+            - option "65030 Computer & Office Equipment"
+            - option "66010 Dues & Subscriptions"
+            - option "Other"
+        - generic [ref=e111] [cursor=pointer]:
+          - generic: Vendor Name*
+          - textbox "Vendor Name*" [ref=e112]: N2CO
+          - generic: If this is a reimbursement for multiple expenses on your credit card just type "My Credit Card"
+        - generic [ref=e115] [cursor=pointer]:
+          - img [ref=e116]
+          - text: Supporting Documents
+        - generic [ref=e118]:
+          - generic: Expense Description*
+          - textbox [ref=e119]: test 111
+        - button "Update Information" [ref=e121] [cursor=pointer]
+    - generic [ref=e124]:
+      - list [ref=e126]:
+        - listitem [ref=e127]:
+          - generic [ref=e128]:
+            - emphasis [ref=e129]: 
+            - generic [ref=e130]: All Documents
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - searchbox [ref=e136]
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - generic [ref=e141]: Export
+              - generic [ref=e142]:
+                - button "" [ref=e143] [cursor=pointer]
+                - button "" [ref=e144] [cursor=pointer]
+                - button "" [ref=e145] [cursor=pointer]
+                - button "" [ref=e146] [cursor=pointer]
+            - generic [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: Show
+              - generic [ref=e150]:
+                - combobox "Show " [ref=e151]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: 
+        - grid [ref=e153]:
+          - rowgroup [ref=e154]:
+            - 'row "ID: activate to sort column descending Media Type: activate to sort column ascending Attachment: activate to sort column ascending Request ID: activate to sort column ascending Created On: activate to sort column ascending Created By: activate to sort column ascending Belongs To: activate to sort column ascending" [ref=e155]':
+              - 'columnheader "ID: activate to sort column descending" [ref=e156] [cursor=pointer]': ↑ ID ↓
+              - 'columnheader "Media Type: activate to sort column ascending" [ref=e157] [cursor=pointer]': ↑ Media Type ↓
+              - 'columnheader "Attachment: activate to sort column ascending" [ref=e158] [cursor=pointer]': ↑ Attachment ↓
+              - 'columnheader "Request ID: activate to sort column ascending" [ref=e159] [cursor=pointer]': ↑ Request ID ↓
+              - 'columnheader "Created On: activate to sort column ascending" [ref=e160] [cursor=pointer]': ↑ Created On ↓
+              - 'columnheader "Created By: activate to sort column ascending" [ref=e161] [cursor=pointer]': ↑ Created By ↓
+              - 'columnheader "Belongs To: activate to sort column ascending" [ref=e162] [cursor=pointer]': ↑ Belongs To ↓
+              - text: ↑ ↓ ↑ ↓
+          - rowgroup [ref=e163]:
+            - row "10270 Approve  8296 9/16/2025 12:18:07 PM Consultant SSO Expense" [ref=e164]:
+              - gridcell "10270" [ref=e165] [cursor=pointer]
+              - gridcell "Approve" [ref=e166]
+              - gridcell "" [ref=e167]:
+                - link "" [ref=e168] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/approve/5118f7da-4777-4575-a038-5b52e72ecdbb_ExpenseManagementSystem.docx
+                  - emphasis [ref=e169]: 
+              - gridcell "8296" [ref=e170]
+              - gridcell "9/16/2025 12:18:07 PM" [ref=e171]
+              - gridcell "Consultant SSO" [ref=e172]
+              - gridcell "Expense" [ref=e173]
+              - text: 
+            - row "10293 Add Expense  8296 9/18/2025 4:21:12 PM Consultant SSO Expense" [ref=e174]:
+              - gridcell "10293" [ref=e175] [cursor=pointer]
+              - gridcell "Add Expense" [ref=e176]
+              - gridcell "" [ref=e177]:
+                - link "" [ref=e178] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/expenses/5a0446eb-8664-473d-a436-12790e2e2b26_ExpenseManagementSystem_WithRoleAuth.docx
+                  - emphasis [ref=e179]: 
+              - gridcell "8296" [ref=e180]
+              - gridcell "9/18/2025 4:21:12 PM" [ref=e181]
+              - gridcell "Consultant SSO" [ref=e182]
+              - gridcell "Expense" [ref=e183]
+              - text: 
+            - row "10295 Add Expense  8296 9/18/2025 4:32:13 PM Consultant SSO Expense" [ref=e184]:
+              - gridcell "10295" [ref=e185] [cursor=pointer]
+              - gridcell "Add Expense" [ref=e186]
+              - gridcell "" [ref=e187]:
+                - link "" [ref=e188] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/expenses/96512cef-b006-487d-aaa6-b9cc08036712_c2dcc508-f94c-4301-96bb-882cdd9908be %281%29.docx
+                  - emphasis [ref=e189]: 
+              - gridcell "8296" [ref=e190]
+              - gridcell "9/18/2025 4:32:13 PM" [ref=e191]
+              - gridcell "Consultant SSO" [ref=e192]
+              - gridcell "Expense" [ref=e193]
+              - text: 
+            - row "10297 Add Expense  8296 9/18/2025 5:24:27 PM Consultant SSO Expense" [ref=e194]:
+              - gridcell "10297" [ref=e195] [cursor=pointer]
+              - gridcell "Add Expense" [ref=e196]
+              - gridcell "" [ref=e197]:
+                - link "" [ref=e198] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/expenses/03f13fb5-5875-4f43-a791-6a8caa0051c1_ExpenseManagementSystem_DetailedAPI_Doc.docx
+                  - emphasis [ref=e199]: 
+              - gridcell "8296" [ref=e200]
+              - gridcell "9/18/2025 5:24:27 PM" [ref=e201]
+              - gridcell "Consultant SSO" [ref=e202]
+              - gridcell "Expense" [ref=e203]
+              - text: 
+            - row "10298 Add Expense  8296 9/18/2025 5:35:13 PM Consultant SSO Expense" [ref=e204]:
+              - gridcell "10298" [ref=e205] [cursor=pointer]
+              - gridcell "Add Expense" [ref=e206]
+              - gridcell "" [ref=e207]:
+                - link "" [ref=e208] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/expenses/02c7a755-9d63-42a4-b72b-6b1e7230289e_c2dcc508-f94c-4301-96bb-882cdd9908be.docx
+                  - emphasis [ref=e209]: 
+              - gridcell "8296" [ref=e210]
+              - gridcell "9/18/2025 5:35:13 PM" [ref=e211]
+              - gridcell "Consultant SSO" [ref=e212]
+              - gridcell "Expense" [ref=e213]
+              - text: 
+            - row "10299 Add Expense  8296 9/18/2025 5:38:25 PM Consultant SSO Expense" [ref=e214]:
+              - gridcell "10299" [ref=e215] [cursor=pointer]
+              - gridcell "Add Expense" [ref=e216]
+              - gridcell "" [ref=e217]:
+                - link "" [ref=e218] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/expenses/e37fedbf-dba3-432e-8b0d-623b4b66e28b_ExpenseManagementSystem_FinalDetailedDoc.docx
+                  - emphasis [ref=e219]: 
+              - gridcell "8296" [ref=e220]
+              - gridcell "9/18/2025 5:38:25 PM" [ref=e221]
+              - gridcell "Consultant SSO" [ref=e222]
+              - gridcell "Expense" [ref=e223]
+              - text: 
+            - row "10300 Add Expense  8296 9/18/2025 5:49:05 PM Consultant SSO Expense" [ref=e224]:
+              - gridcell "10300" [ref=e225] [cursor=pointer]
+              - gridcell "Add Expense" [ref=e226]
+              - gridcell "" [ref=e227]:
+                - link "" [ref=e228] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/expenses/717f1f6a-c491-40e4-b7e8-6d12009a2c0b_c2dcc508-f94c-4301-96bb-882cdd9908be %281%29.docx
+                  - emphasis [ref=e229]: 
+              - gridcell "8296" [ref=e230]
+              - gridcell "9/18/2025 5:49:05 PM" [ref=e231]
+              - gridcell "Consultant SSO" [ref=e232]
+              - gridcell "Expense" [ref=e233]
+              - text: 
+            - row "10301 Add Expense  8296 9/18/2025 5:55:04 PM Consultant SSO Expense" [ref=e234]:
+              - gridcell "10301" [ref=e235] [cursor=pointer]
+              - gridcell "Add Expense" [ref=e236]
+              - gridcell "" [ref=e237]:
+                - link "" [ref=e238] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/expenses/b15a6738-f40d-4649-8e11-e8c72528ae08_c2dcc508-f94c-4301-96bb-882cdd9908be.docx
+                  - emphasis [ref=e239]: 
+              - gridcell "8296" [ref=e240]
+              - gridcell "9/18/2025 5:55:04 PM" [ref=e241]
+              - gridcell "Consultant SSO" [ref=e242]
+              - gridcell "Expense" [ref=e243]
+              - text: 
+            - row "10355 Add Expense  8296 9/22/2025 5:18:50 PM Consultant SSO Expense" [ref=e244]:
+              - gridcell "10355" [ref=e245] [cursor=pointer]
+              - gridcell "Add Expense" [ref=e246]
+              - gridcell "" [ref=e247]:
+                - link "" [ref=e248] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/expenses/cb2f142a-8d75-4ef7-a71c-17c85feb06b7_ExpenseManagementSystem.docx
+                  - emphasis [ref=e249]: 
+              - gridcell "8296" [ref=e250]
+              - gridcell "9/22/2025 5:18:50 PM" [ref=e251]
+              - gridcell "Consultant SSO" [ref=e252]
+              - gridcell "Expense" [ref=e253]
+              - text: 
+            - row "10356 Add Expense  8296 9/22/2025 5:18:50 PM Consultant SSO Expense" [ref=e254]:
+              - gridcell "10356" [ref=e255] [cursor=pointer]
+              - gridcell "Add Expense" [ref=e256]
+              - gridcell "" [ref=e257]:
+                - link "" [ref=e258] [cursor=pointer]:
+                  - /url: https://testexpensecontainers.blob.core.windows.net/expenses/03e0941f-d5c9-44cc-b52b-af58f948aa6b_ExpenseManagementSystem.docx
+                  - emphasis [ref=e259]: 
+              - gridcell "8296" [ref=e260]
+              - gridcell "9/22/2025 5:18:50 PM" [ref=e261]
+              - gridcell "Consultant SSO" [ref=e262]
+              - gridcell "Expense" [ref=e263]
+              - text: 
+        - generic [ref=e264]:
+          - list [ref=e267]:
+            - listitem [ref=e268]:
+              - link "Prev":
+                - /url: "#"
+            - listitem [ref=e269] [cursor=pointer]:
+              - link "1" [ref=e270]:
+                - /url: "#"
+            - listitem [ref=e271] [cursor=pointer]:
+              - link "2" [ref=e272]:
+                - /url: "#"
+            - listitem [ref=e273] [cursor=pointer]:
+              - link "Next" [ref=e274]:
+                - /url: "#"
+          - status [ref=e276]: 1 -10 of 20
