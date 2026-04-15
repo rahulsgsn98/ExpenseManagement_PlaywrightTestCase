@@ -37,10 +37,10 @@ export class RoleBasedPage {
     this.page = page;
 
     // Profile menu
-    this.profileToggleLink = page.getByRole('link', { name: 'A', exact: true }).first();
+    this.profileToggleLink = page.getByRole('link', { name: 'A', exact: true });
     this.profileUserName = page.locator('div').filter({ hasText: 'Amaan Ansari' }).first();
-    this.rolesDropdown = page.locator('#RolesDropdown');
-    this.signOutLink = page.getByRole('link', { name: /Sign out/i }).first();
+    this.rolesDropdown = page.getByRole('combobox').first();
+    this.signOutLink = page.getByRole('link', { name: /Sign out/i });
 
     // Sidebar links
     this.expenseFormLink = page.getByRole('link', { name: ' Expense Form' });
@@ -63,33 +63,15 @@ export class RoleBasedPage {
 
   async openProfileMenu() {
     await expect(this.profileToggleLink).toBeVisible();
-    // CI can intermittently miss the first click on the avatar menu.
-    await expect
-      .poll(
-        async () => {
-          await this.profileToggleLink.click({ force: true });
-          return await this.rolesDropdown.isVisible().catch(() => false);
-        },
-        { timeout: 20_000, intervals: [200, 400, 800, 1200] }
-      )
-      .toBe(true);
+    await this.profileToggleLink.click();
+    await expect(this.rolesDropdown).toBeVisible();
     await expect(this.signOutLink).toBeVisible();
   }
 
   async switchRole(role: UserRole) {
     await this.openProfileMenu();
     await this.rolesDropdown.selectOption({ label: role });
-    await this.page.waitForLoadState('domcontentloaded');
-    await expect
-      .poll(
-        async () => this.page.url().length > 0,
-        { timeout: 20_000, intervals: [300, 500, 1000] }
-      )
-      .toBe(true);
-    await this.openProfileMenu();
-    await expect
-      .poll(async () => this.getSelectedRoleLabel(), { timeout: 20_000, intervals: [300, 500, 1000] })
-      .toBe(role);
+    await expect(this.page).toHaveURL(/\/Home\/Index/i);
   }
 
   /** Requires the roles combobox to be visible (e.g. after openProfileMenu). */
@@ -117,17 +99,7 @@ export class RoleBasedPage {
     const current = await this.getSelectedRoleLabel();
     if (current !== role) {
       await this.rolesDropdown.selectOption({ label: role });
-      await this.page.waitForLoadState('domcontentloaded');
-      await expect
-        .poll(
-          async () => this.page.url().length > 0,
-          { timeout: 20_000, intervals: [300, 500, 1000] }
-        )
-        .toBe(true);
-      await this.openProfileMenu();
-      await expect
-        .poll(async () => this.getSelectedRoleLabel(), { timeout: 20_000, intervals: [300, 500, 1000] })
-        .toBe(role);
+      await expect(this.page).toHaveURL(/\/Home\/Index/i);
     }
   }
 
